@@ -1,1 +1,7 @@
-<p>register works!</p>
+<form [formGroup]="registerForm">
+  <input formControlName="nickname" type="text" />
+  <input formControlName="email" type="text" />
+  <input formControlName="password" type="text" />
+  <input formControlName="description" type="text" />
+  <button (click)="register()">invia</button>
+</form>

@@ -1,1 +1,6 @@
-<p>login works!</p>
+<form class="form-signin" #form="ngForm">
+  <input name="email" ngModel type="email" />
+  <input name="password" ngModel type="password" />
+
+  <button (click)="login(form)">invia</button>
+</form>
