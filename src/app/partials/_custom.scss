@@ -28,6 +28,12 @@ footer {
   max-height: 15rem;
 }
 
+@media screen and (min-width: 768px) {
+  .avatar {
+    max-height: 25rem;
+  }
+}
+
 .description {
   background-color: rgb(251, 225, 155);
 }
@@ -96,4 +102,8 @@ footer {
 .swipedx:hover {
   color: white;
   font-size: 4rem;
+}
+
+.prefer {
+  max-height: 3rem;
 }
