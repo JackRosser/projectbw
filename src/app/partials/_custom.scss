@@ -1,15 +1,31 @@
 main {
   width: 100vw;
-  height: 100vh;
+  height: 88vh;
   background-image: url("/images/background.webp");
   background-size: cover;
   background-position: center;
+}
+
+nav {
+  width: 100vw;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+footer {
+  background-color: black;
+  width: 100vw;
+  height: 5vh;
 }
 
 .avatar {
   border: 3px solid white;
   outline: 2px solid white;
   outline-offset: 0.5rem;
+  max-height: 15rem;
 }
 
 .description {
@@ -30,4 +46,54 @@ main {
 .like:hover {
   transform: scale(1.5) rotate(45deg);
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes swsx {
+  from {
+    transform: translateX(-1.5rem);
+  }
+  50% {
+    transform: translateX(-2.5rem);
+  }
+  to {
+    transform: translateX(-1.5rem);
+  }
+}
+
+.swipesx {
+  font-size: 3rem;
+  transform: translateX(-1.5rem);
+  font-weight: bold;
+  cursor: pointer;
+  animation: swsx 1s infinite;
+}
+
+.swipesx:hover {
+  color: white;
+  font-size: 4rem;
+}
+
+@keyframes swdx {
+  from {
+    transform: translateX(1.5rem);
+  }
+  50% {
+    transform: translateX(2.5rem);
+  }
+  to {
+    transform: translateX(1.5rem);
+  }
+}
+
+.swipedx {
+  font-size: 3rem;
+  transform: translateX(1.5rem);
+  font-weight: bold;
+  cursor: pointer;
+  animation: swdx 1s infinite;
+}
+
+.swipedx:hover {
+  color: white;
+  font-size: 4rem;
 }

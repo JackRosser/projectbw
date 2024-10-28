@@ -1,14 +1,23 @@
-<main class="container">
+<app-navbar></app-navbar>
+<main class="container-fluid">
   <div class="row p-5">
-    <div class="col-12 d-flex justify-content-center col-md-6">
+    <div class="col-4 d-flex align-items-center justify-content-center">
+      <span class="swipesx">(</span>
+    </div>
+    <div
+      class="col-4 d-flex justify-content-center align-items-center col-lg-6"
+    >
       <img
         src="/images/avatartest.webp"
         alt="avatar"
-        class="avatar rounded-circle w-75 shadow-lg"
+        class="avatar rounded-circle shadow-lg"
       />
     </div>
+    <div class="col-4 d-flex align-items-center justify-content-center">
+      <span class="swipedx">)</span>
+    </div>
     <div
-      class="col-12 d-flex justify-content-center align-items-center description col-md-6 p-5 mt-5 mt-md-0 rounded-5"
+      class="col-12 d-flex justify-content-center align-items-center description col-lg-6 p-5 mt-5 mt-lg-0 rounded-5"
     >
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dolor
       hic optio qui deleniti similique distinctio quis dolores, officiis
@@ -25,3 +34,4 @@
     </div>
   </div>
 </main>
+<app-footer></app-footer>
