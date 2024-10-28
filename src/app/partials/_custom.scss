@@ -20,10 +20,14 @@ main {
   cursor: pointer;
   max-height: 6rem;
   margin-inline: 1rem;
-  transition: transform;
+  transition: transform, box-shadow;
   transition-duration: 300ms;
+  border: 2px solid white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 .like:hover {
   transform: scale(1.5) rotate(45deg);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
