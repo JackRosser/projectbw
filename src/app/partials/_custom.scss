@@ -5,3 +5,25 @@ main {
   background-size: cover;
   background-position: center;
 }
+
+.avatar {
+  border: 3px solid white;
+  outline: 2px solid white;
+  outline-offset: 0.5rem;
+}
+
+.description {
+  background-color: rgb(251, 225, 155);
+}
+
+.like {
+  cursor: pointer;
+  max-height: 6rem;
+  margin-inline: 1rem;
+  transition: transform;
+  transition-duration: 300ms;
+}
+
+.like:hover {
+  transform: scale(1.5) rotate(45deg);
+}
