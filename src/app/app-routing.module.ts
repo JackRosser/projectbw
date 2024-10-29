@@ -19,6 +19,7 @@ const routes: Routes = [
     loadChildren: () =>
       import('./shared/shared.module').then((m) => m.SharedModule),
   },
+  { path: 'games', loadChildren: () => import('./pages/games/games.module').then(m => m.GamesModule) },
 ];
 
 @NgModule({
