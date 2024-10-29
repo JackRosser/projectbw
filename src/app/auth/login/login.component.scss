@@ -1,0 +1,98 @@
+.form-wrapper {
+  padding: 3rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  width: 320px;
+}
+
+.form-wrapper h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 240, 250, 1) 38%,
+    rgba(242, 38, 227, 1) 100%
+  );
+  background-size: 200% 200%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientAnimation 3s ease-in-out infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.input-group {
+  position: relative;
+  margin: 1.5rem 0;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+  background: none;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  background-image: linear-gradient(#fff, #fff),
+    linear-gradient(90deg, rgba(0, 240, 250, 1) 38%, rgba(242, 38, 227, 1) 100%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  transition: border-color 0.5s ease, box-shadow 0.5s ease;
+}
+
+.input-group input:focus {
+  border-color: green;
+  box-shadow: 0 0 8px rgba(102, 126, 234, 0.3);
+}
+input.ng-touched.ng-invalid {
+  border: 2px solid red;
+}
+
+.input-group label {
+  position: absolute;
+  top: 50%;
+  left: 0.5rem;
+  font-size: 16px;
+  color: #aaa;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+
+.input-group input:focus + label,
+.input-group input:not(:placeholder-shown) + label {
+  top: -8px;
+  left: 0.4rem;
+  font-size: 14px;
+  color: #ea66ea;
+  background-color: #ffffff;
+  padding: 0 0.2rem;
+}
+
+.register-button {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 16px;
+  color: #ffffff;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 240, 250, 1) 38%,
+    rgba(242, 38, 227, 1) 100%
+  );
+  background-size: 200% 200%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  animation: gradientAnimation 3s ease-in-out infinite;
+}
