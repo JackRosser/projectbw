@@ -1,4 +1,4 @@
-.container {
+.container-fluid {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,11 +18,12 @@
 .form-wrapper h2 {
   font-size: 28px;
   font-weight: bold;
-  color: #333;
+
+  background: rgb(0, 240, 250);
   background: linear-gradient(
     90deg,
-    rgba(0, 240, 250, 1) 38%,
-    rgba(242, 38, 227, 1) 100%
+    rgba(0, 240, 250, 1) 30%,
+    rgba(251, 133, 243, 1) 100%
   );
   background-size: 200% 200%;
   background-clip: text;
@@ -84,7 +85,7 @@ input.ng-touched.ng-invalid {
   top: -10px;
   left: 0.7rem;
   font-size: 16px;
-  color: #f86df8;
+  color: #fd5bfd;
   font-weight: bold;
   letter-spacing: 2px;
   // background-color: #ffffff;
@@ -96,10 +97,11 @@ input.ng-touched.ng-invalid {
   padding: 1rem;
   font-size: 18px;
   color: #ffffff;
+  background: rgb(0, 240, 250);
   background: linear-gradient(
     90deg,
-    rgba(0, 240, 250, 1) 38%,
-    rgba(242, 38, 227, 1) 100%
+    rgba(0, 240, 250, 1) 30%,
+    rgba(251, 133, 243, 1) 100%
   );
   background-size: 200% 200%;
   border: none;

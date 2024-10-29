@@ -1,33 +1,24 @@
 <div
-  class="login container-fluid d-flex justify-content-center align-items-center vh-100"
+  class="login container-fluid d-flex justify-content-center align-items-center"
 >
-  <div>
-    <div class="form-wrapper text-center p-4 rounded shadow">
-      <h2 class="bolder mb-4">Login to your Account</h2>
-      <form #form="ngForm">
-        <div class="input-group mb-3">
-          <input type="email" id="email" name="email" ngModel required />
-          <label for="email">Email</label>
-        </div>
-        <div class="input-group mb-4">
-          <input
-            type="password"
-            id="password"
-            name="password"
-            ngModel
-            required
-          />
-          <label for="password">Password</label>
-        </div>
-        <button
-          (click)="login(form)"
-          [disabled]="form.invalid"
-          type="submit"
-          class="btn btn-primary w-100 register-button"
-        >
-          Login
-        </button>
-      </form>
-    </div>
+  <div class="form-wrapper text-center p-4 rounded shadow">
+    <h2 class="bolder mb-4">Login to your Account</h2>
+    <form #form="ngForm">
+      <div class="input-group mb-3">
+        <input type="email" id="email" name="email" ngModel required />
+        <label for="email">Email</label>
+      </div>
+      <div class="input-group mb-4">
+        <input type="password" id="password" name="password" ngModel required />
+        <label for="password">Password</label>
+      </div>
+      <button
+        (click)="login(form)"
+        type="submit"
+        class="btn btn-primary w-100 register-button"
+      >
+        Login
+      </button>
+    </form>
   </div>
 </div>
