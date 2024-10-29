@@ -25,13 +25,13 @@
   "games": [
     {
       "id": 1,
-      "cover": "cover1.jpg",
+      "cover": "https://m.media-amazon.com/images/I/91zYKmF4jjL._AC_UL320_.jpg",
       "title": "The Legend of Zelda: Breath of the Wild",
       "genere": "Adventure"
     },
     {
       "id": 2,
-      "cover": "cover2.jpg",
+      "cover": "https://m.media-amazon.com/images/I/91-VfRp-i0L._AC_UL320_.jpg",
       "title": "Super Mario Odyssey",
       "genere": "Platform"
     },
