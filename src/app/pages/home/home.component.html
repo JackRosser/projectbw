@@ -1,10 +1,9 @@
-<app-navbar></app-navbar>
 <main class="container-fluid">
   <div class="row p-5">
     <div
       class="col-4 d-flex align-items-center justify-content-center col-lg-2"
     >
-      <span class="swipesx">(</span>
+      <span (click)="previousUser()" class="swipesx">(</span>
     </div>
     <div
       class="col-4 d-flex justify-content-center align-items-center col-lg-2"
@@ -18,16 +17,14 @@
     <div
       class="col-4 d-flex align-items-center justify-content-center col-lg-2"
     >
-      <span class="swipedx">)</span>
+      <span (click)="nextUser()" class="swipedx">)</span>
     </div>
     <div
+      *ngIf="arrUsers.length > 0"
       class="col-12 d-flex flex-column justify-content-center align-items-center description col-lg-3 p-5 mt-5 mt-lg-0 rounded-5"
     >
-      <h2 class="display-4">Ivan</h2>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dolor
-      hic optio qui deleniti similique distinctio quis dolores, officiis
-      exercitationem dignissimos? Mollitia dolorum minus vitae iusto saepe, qui
-      consectetur illum!
+      <h2 class="display-4">{{ arrUsers[currentIndex].nickname }}</h2>
+      <p>{{ arrUsers[currentIndex].description }}</p>
     </div>
     <div
       class="col-12 d-flex justify-content-center align-items-center col-lg-3 p-5 mt-5 mt-lg-0 rounded-5 bg-dark text-white d-none d-lg-block overflow-auto"

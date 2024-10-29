@@ -1,10 +1,37 @@
-<nav class="gap-4">
-  <span class="text-white">Ivan</span>
-  <img
-    src="/images/avatartest.webp"
-    alt="avatar"
-    class="navavatar"
-    (click)="profileAppear()"
-  />
-</nav>
+<mat-toolbar color="primary" class="navbar bg-body-secondary">
+  <span class="navbar-brand">
+    <img
+      src="https://files.oaiusercontent.com/file-o5vzCVk8mU4OuK0LZuD779SP?se=2024-10-29T09%3A55%3A12Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Df1651801-6ac2-4885-897a-ac0a9663643f.webp&sig=nC5a/DrsBnWcqvmZWx6Dl0tSriPqZxD0TXKqHf5DOPQ%3D"
+      alt="App Logo"
+      class="logo"
+    />
+    <span class="app-title">GameZone</span>
+  </span>
+
+  <span class="nav-links">
+    <button mat-button routerLink="/auth/login" *ngIf="!(isLoggedIn$ | async)">
+      <mat-icon>login</mat-icon> Login
+    </button>
+    <button
+      mat-button
+      routerLink="/auth/register"
+      *ngIf="!(isLoggedIn$ | async)"
+    >
+      <mat-icon>person_add</mat-icon> Register
+    </button>
+
+    <button mat-button routerLink="/games" *ngIf="isLoggedIn$ | async">
+      <mat-icon>videogame_asset</mat-icon> Games
+    </button>
+    <button mat-button *ngIf="isLoggedIn$ | async" (click)="profileAppear()">
+      <mat-icon>account_circle</mat-icon> Profile
+    </button>
+    <button mat-button routerLink="/users" *ngIf="isLoggedIn$ | async">
+      <mat-icon>group</mat-icon> Users
+    </button>
+    <button mat-button (click)="logout()" *ngIf="isLoggedIn$ | async">
+      <mat-icon>logout</mat-icon> Logout
+    </button>
+  </span>
+</mat-toolbar>
 <app-profile [profileOn]="profileOn"></app-profile>
