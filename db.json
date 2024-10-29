@@ -7,5 +7,173 @@
       "description": "khasdbfsdkhfhsdk",
       "id": 1
     }
+  ],
+
+  "games": [
+    {
+      "id": 1,
+      "cover": "cover1.jpg",
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "genere": "Adventure"
+    },
+    {
+      "id": 2,
+      "cover": "cover2.jpg",
+      "title": "Super Mario Odyssey",
+      "genere": "Platform"
+    },
+    {
+      "id": 3,
+      "cover": "cover3.jpg",
+      "title": "The Witcher 3: Wild Hunt",
+      "genere": "RPG"
+    },
+    {
+      "id": 4,
+      "cover": "cover4.jpg",
+      "title": "Red Dead Redemption 2",
+      "genere": "Action-Adventure"
+    },
+    {
+      "id": 5,
+      "cover": "cover5.jpg",
+      "title": "Minecraft",
+      "genere": "Sandbox"
+    },
+    {
+      "id": 6,
+      "cover": "cover6.jpg",
+      "title": "Fortnite",
+      "genere": "Battle Royale"
+    },
+    {
+      "id": 7,
+      "cover": "cover7.jpg",
+      "title": "League of Legends",
+      "genere": "MOBA"
+    },
+    { "id": 8, "cover": "cover8.jpg", "title": "Hades", "genere": "Roguelike" },
+    {
+      "id": 9,
+      "cover": "cover9.jpg",
+      "title": "Cyberpunk 2077",
+      "genere": "RPG"
+    },
+    {
+      "id": 10,
+      "cover": "cover10.jpg",
+      "title": "God of War",
+      "genere": "Action"
+    },
+    {
+      "id": 11,
+      "cover": "cover11.jpg",
+      "title": "Animal Crossing: New Horizons",
+      "genere": "Simulation"
+    },
+    {
+      "id": 12,
+      "cover": "cover12.jpg",
+      "title": "DOOM Eternal",
+      "genere": "FPS"
+    },
+    {
+      "id": 13,
+      "cover": "cover13.jpg",
+      "title": "Among Us",
+      "genere": "Party"
+    },
+    { "id": 14, "cover": "cover14.jpg", "title": "Overwatch", "genere": "FPS" },
+    {
+      "id": 15,
+      "cover": "cover15.jpg",
+      "title": "Genshin Impact",
+      "genere": "RPG"
+    },
+    {
+      "id": 16,
+      "cover": "cover16.jpg",
+      "title": "Assassin's Creed Valhalla",
+      "genere": "Action-Adventure"
+    },
+    {
+      "id": 17,
+      "cover": "cover17.jpg",
+      "title": "Final Fantasy XV",
+      "genere": "RPG"
+    },
+    {
+      "id": 18,
+      "cover": "cover18.jpg",
+      "title": "Resident Evil Village",
+      "genere": "Horror"
+    },
+    {
+      "id": 19,
+      "cover": "cover19.jpg",
+      "title": "FIFA 21",
+      "genere": "Sports"
+    },
+    {
+      "id": 20,
+      "cover": "cover20.jpg",
+      "title": "Call of Duty: Warzone",
+      "genere": "Battle Royale"
+    },
+    {
+      "id": 21,
+      "cover": "cover21.jpg",
+      "title": "Ghost of Tsushima",
+      "genere": "Action-Adventure"
+    },
+    {
+      "id": 22,
+      "cover": "cover22.jpg",
+      "title": "Hollow Knight",
+      "genere": "Metroidvania"
+    },
+    {
+      "id": 23,
+      "cover": "cover23.jpg",
+      "title": "Celeste",
+      "genere": "Platform"
+    },
+    {
+      "id": 24,
+      "cover": "cover24.jpg",
+      "title": "Stardew Valley",
+      "genere": "Simulation"
+    },
+    {
+      "id": 25,
+      "cover": "cover25.jpg",
+      "title": "Dark Souls III",
+      "genere": "Action-RPG"
+    },
+    {
+      "id": 26,
+      "cover": "cover26.jpg",
+      "title": "Bloodborne",
+      "genere": "Action-RPG"
+    },
+    {
+      "id": 27,
+      "cover": "cover27.jpg",
+      "title": "Persona 5",
+      "genere": "JRPG"
+    },
+    {
+      "id": 28,
+      "cover": "cover28.jpg",
+      "title": "Monster Hunter: World",
+      "genere": "Action"
+    },
+    {
+      "id": 29,
+      "cover": "cover29.jpg",
+      "title": "Apex Legends",
+      "genere": "Battle Royale"
+    },
+    { "id": 30, "cover": "cover30.jpg", "title": "Destiny 2", "genere": "FPS" }
   ]
 }

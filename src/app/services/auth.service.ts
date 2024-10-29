@@ -12,7 +12,9 @@ import { iLogin } from '../models/i-login';
   providedIn: 'root',
 })
 export class AuthService {
-  constructor(private http: HttpClient, private router: Router) {}
+  constructor(private http: HttpClient, private router: Router) {
+    this.restoreUser();
+  }
 
   jwtHelper: JwtHelperService = new JwtHelperService();
 
@@ -57,6 +59,7 @@ export class AuthService {
   }
 
   autoLogoutTimer: any;
+
   autoLogout(token: Date) {
     clearTimeout(this.autoLogoutTimer);
     const expMs = token.getTime() - new Date().getTime();
@@ -64,5 +67,19 @@ export class AuthService {
     this.autoLogoutTimer = setTimeout(() => {
       this.logout();
     }, expMs);
+  }
+
+  restoreUser() {
+    const userJson: string | null = localStorage.getItem('accessData');
+    if (!userJson) return;
+
+    const accessData: iaccessData = JSON.parse(userJson);
+
+    if (this.jwtHelper.isTokenExpired(accessData.accessToken)) {
+      localStorage.removeItem('accessData');
+      return;
+    }
+
+    this.authSubject$.next(accessData);
   }
 }
