@@ -6,9 +6,15 @@
       "nickname": "ciao",
       "description": "khasdbfsdkhfhsdk",
       "id": 1
+    },
+    {
+      "email": "Mario@gmail.com",
+      "password": "$2a$10$Z9B6L5kPaxghI/sl2U2vSuPOdB/DCFVKFYapLQn89OVnGdViproQi",
+      "nickname": "Mario",
+      "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq",
+      "id": 2
     }
   ],
-
   "games": [
     {
       "id": 1,
@@ -52,7 +58,12 @@
       "title": "League of Legends",
       "genere": "MOBA"
     },
-    { "id": 8, "cover": "cover8.jpg", "title": "Hades", "genere": "Roguelike" },
+    {
+      "id": 8,
+      "cover": "cover8.jpg",
+      "title": "Hades",
+      "genere": "Roguelike"
+    },
     {
       "id": 9,
       "cover": "cover9.jpg",
@@ -83,7 +94,12 @@
       "title": "Among Us",
       "genere": "Party"
     },
-    { "id": 14, "cover": "cover14.jpg", "title": "Overwatch", "genere": "FPS" },
+    {
+      "id": 14,
+      "cover": "cover14.jpg",
+      "title": "Overwatch",
+      "genere": "FPS"
+    },
     {
       "id": 15,
       "cover": "cover15.jpg",
@@ -174,6 +190,11 @@
       "title": "Apex Legends",
       "genere": "Battle Royale"
     },
-    { "id": 30, "cover": "cover30.jpg", "title": "Destiny 2", "genere": "FPS" }
+    {
+      "id": 30,
+      "cover": "cover30.jpg",
+      "title": "Destiny 2",
+      "genere": "FPS"
+    }
   ]
 }
