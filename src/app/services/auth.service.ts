@@ -40,7 +40,10 @@ export class AuthService {
       tap((userAccessData) => {
         this.authSubject$.next(userAccessData);
 
-        localStorage.setItem('userAccessData', JSON.stringify(userAccessData));
+        sessionStorage.setItem(
+          'userAccessData',
+          JSON.stringify(userAccessData)
+        );
 
         const token = this.jwtHelper.getTokenExpirationDate(
           userAccessData.accessToken

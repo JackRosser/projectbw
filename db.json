@@ -13,6 +13,13 @@
       "nickname": "Mario",
       "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq",
       "id": 2
+    },
+    {
+      "email": "tizio@gmail.com",
+      "password": "$2a$10$OaqbhMLIlT0n3Xzf0o3IVulHlQMIorHLbN5eigxQ4VFgL8e1gjWBW",
+      "nickname": "tizio",
+      "description": "fhbskhfgsdksgf",
+      "id": 3
     }
   ],
   "games": [

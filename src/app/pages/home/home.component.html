@@ -21,11 +21,11 @@
       <span (click)="nextUser()" class="swipedx">)</span>
     </div>
     <div
-      *ngFor="let arrUsers of arrUsers"
+      *ngIf="arrUsers.length > 0"
       class="col-12 d-flex flex-column justify-content-center align-items-center description col-lg-3 p-5 mt-5 mt-lg-0 rounded-5"
     >
-      <h2 class="display-4">{{ arrUsers.nickname }}</h2>
-      <p>{{ arrUsers.description }}</p>
+      <h2 class="display-4">{{ arrUsers[currentIndex].nickname }}</h2>
+      <p>{{ arrUsers[currentIndex].description }}</p>
     </div>
     <div
       class="col-12 d-flex justify-content-center align-items-center col-lg-3 p-5 mt-5 mt-lg-0 rounded-5 bg-dark text-white d-none d-lg-block overflow-auto"

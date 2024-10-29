@@ -26,7 +26,7 @@ export class HomeComponent implements OnInit {
       this.currentIndex++;
       console.log(this.currentIndex);
     } else {
-      this.currentIndex = 0; // Torna al primo utente se sei alla fine
+      this.currentIndex = 0;
     }
   }
 
@@ -34,7 +34,7 @@ export class HomeComponent implements OnInit {
     if (this.currentIndex > 0) {
       this.currentIndex--;
     } else {
-      this.currentIndex = this.arrUsers.length - 1; // Torna all'ultimo utente se sei all'inizio
+      this.currentIndex = this.arrUsers.length - 1;
     }
   }
 }
