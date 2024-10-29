@@ -6,6 +6,7 @@ import { SharedComponent } from './shared.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProfileComponent } from './profile/profile.component';
+import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { ProfileComponent } from './profile/profile.component';
   imports: [
     CommonModule,
     SharedRoutingModule,
+    NgbCollapseModule
   ],
   exports: [NavbarComponent, FooterComponent]
 })

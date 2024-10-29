@@ -1,16 +1,39 @@
-<section id="profile">
-  <div class="container-fluid">
-    <div class="row p-md-5">
-      <div class="col-12 d-flex justify-content-center">
-        <div class="position-relative">
-          <img
-            src="/images/avatartest.webp"
-            alt="avatar"
-            class="profileavatar"
-          />
-          <i class="bi bi-pencil edit"></i>
-        </div>
+<section id="profile" class="container-fluid">
+  <div class="row p-md-5">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="position-relative">
+        <img src="/images/avatartest.webp" alt="avatar" class="profileavatar" />
+        <i class="bi bi-pencil edit"></i>
       </div>
     </div>
+    <!-- <div class="col-12 border">
+        <p>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            (click)="collapse.toggle()"
+            [attr.aria-expanded]="!isCollapsed"
+            aria-controls="collapseExample"
+          >
+            Lista preferiti
+          </button>
+          <button
+            type="button"
+            class="btn btn-outline-primary ms-2"
+            (click)="isCollapsed = !isCollapsed"
+            [attr.aria-expanded]="!isCollapsed"
+            aria-controls="collapseExample"
+          >
+            Chat
+          </button>
+        </p>
+        <div #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed">
+          <div class="card">
+            <div class="card-body">
+              You can collapse this card by clicking one Toggle button
+            </div>
+          </div>
+        </div>
+      </div> -->
   </div>
 </section>
