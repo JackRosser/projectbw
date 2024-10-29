@@ -1,9 +1,19 @@
+body {
+  background-color: black;
+}
+
 main {
   width: 100vw;
-  height: 88vh;
-  background-image: url("/images/background.webp");
+  height: 93vh;
+  background-image: url("/images/background5.webp");
   background-size: cover;
   background-position: center;
+}
+
+@media screen and (min-width: 992px) {
+  main {
+    height: 88vh;
+  }
 }
 
 nav {
@@ -35,7 +45,9 @@ footer {
 }
 
 .description {
-  background-color: rgb(251, 225, 155);
+  background: linear-gradient(45deg, #4d40fd, #fd198d);
+  border: 2px solid white;
+  color: white;
 }
 
 .like {
@@ -106,6 +118,8 @@ footer {
 
 .prefer {
   max-height: 3rem;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+  border-radius: 5px;
 }
 
 .consigliati {
