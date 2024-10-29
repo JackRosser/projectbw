@@ -1,4 +1,3 @@
-
 .container {
   display: flex;
   justify-content: center;
@@ -8,14 +7,13 @@
 }
 
 .form-wrapper {
-  padding: 4rem 3rem;
+  padding: 5rem 4rem;
   border-radius: 12px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
   width: 480px;
   max-width: 90%;
-  background-color: #fff;
+  background-color: rgba(120, 125, 173, 0.8);
 }
-
 
 .form-wrapper h2 {
   font-size: 28px;
@@ -31,7 +29,6 @@
   -webkit-text-fill-color: transparent;
   animation: gradientAnimation 3s ease-in-out infinite;
 }
-
 
 @keyframes gradientAnimation {
   0% {
@@ -62,17 +59,14 @@
   transition: border-color 0.5s ease, box-shadow 0.5s ease;
 }
 
-
 .input-group input:focus {
   border-color: green;
   box-shadow: 0 0 10px rgba(102, 126, 234, 0.3);
 }
 
-
 input.ng-touched.ng-invalid {
   border: 2px solid red;
 }
-
 
 .input-group label {
   position: absolute;
@@ -85,17 +79,17 @@ input.ng-touched.ng-invalid {
   transition: all 0.3s ease;
 }
 
-
 .input-group input:focus + label,
 .input-group input:not(:placeholder-shown) + label {
   top: -10px;
   left: 0.7rem;
   font-size: 16px;
-  color: #ea66ea;
-  background-color: #ffffff;
+  color: #f86df8;
+  font-weight: bold;
+  letter-spacing: 2px;
+  // background-color: #ffffff;
   padding: 0 0.3rem;
 }
-
 
 .register-button {
   width: 100%;
