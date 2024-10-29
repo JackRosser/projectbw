@@ -1,0 +1,46 @@
+#profile {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 20;
+}
+
+.profileavatar {
+  max-height: 50%;
+}
+
+.edit {
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  padding-inline: 1.2rem;
+  padding-block: 1rem;
+  border: 1px solid white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  top: 1rem;
+  left: 1rem;
+}
+
+.edit:hover {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (min-width: 992px) {
+  .profileavatar {
+    border-radius: 50%;
+    border: 2px solid white;
+    outline: 2px solid white;
+    outline-offset: 5px;
+  }
+  .edit {
+    top: 2rem;
+    left: 2.5rem;
+  }
+}
