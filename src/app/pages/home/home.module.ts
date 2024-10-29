@@ -6,16 +6,8 @@ import { HomeComponent } from './home.component';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 import { SharedModule } from '../../shared/shared.module';
 
-
 @NgModule({
-  declarations: [
-    HomeComponent
-  ],
-  imports: [
-    CommonModule,
-    HomeRoutingModule,
-    NgbCarouselModule,
-    SharedModule
-  ]
+  declarations: [HomeComponent],
+  imports: [CommonModule, HomeRoutingModule, NgbCarouselModule, SharedModule],
 })
-export class HomeModule { }
+export class HomeModule {}

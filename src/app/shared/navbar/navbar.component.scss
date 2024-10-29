@@ -5,6 +5,9 @@
   justify-content: space-between;
   padding: 0 1rem;
   align-items: center;
+  z-index: 900;
+  position: sticky;
+  top: 0;
 }
 
 .navbar-brand {
@@ -29,6 +32,14 @@
   gap: 1rem;
 }
 
+.hidden-links {
+  display: none;
+}
+
+.menu-button {
+  display: none;
+}
+
 .mat-button .mat-icon {
   margin-right: 4px;
   color: #ffeb3b;
@@ -42,4 +53,20 @@
 .mat-button:hover {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 4px;
+}
+
+/* Media query per schermi piccoli */
+@media (max-width: 768px) {
+  .app-title {
+    font-size: 1.2rem;
+  }
+
+  .menu-button {
+    display: inline-flex;
+  }
+
+  .navbar-brand {
+    flex-grow: 1;
+    justify-content: center;
+  }
 }

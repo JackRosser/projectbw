@@ -1,7 +1,4 @@
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.container-fluid {
   min-height: 100vh;
   background-color: #f5f5f5;
 }
@@ -12,30 +9,33 @@
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
   width: 480px;
   max-width: 90%;
-  background-color: #fff;
+  background-color: rgba(120, 125, 173, 0.8);
 }
 
 .form-wrapper h2 {
   font-size: 28px;
   font-weight: bold;
-  color: #333;
+
+  background: rgb(0, 240, 250);
   background: linear-gradient(
     90deg,
-    rgba(0, 240, 250, 1) 38%,
-    rgba(242, 38, 227, 1) 100%
+    rgba(0, 240, 250, 1) 30%,
+    rgba(251, 133, 243, 1) 100%
   );
   background-size: 200% 200%;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: gradientAnimation 3s ease-in-out infinite;
 }
-
 @keyframes gradientAnimation {
   0% {
     background-position: 0% 50%;
   }
-  100% {
+  50% {
     background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
 
@@ -84,8 +84,10 @@ input.ng-touched.ng-invalid {
   top: -10px;
   left: 0.7rem;
   font-size: 16px;
-  color: #ea66ea;
-  background-color: #ffffff;
+  color: #fd5bfd;
+  font-weight: bold;
+  letter-spacing: 2px;
+
   padding: 0 0.3rem;
 }
 
@@ -94,10 +96,11 @@ input.ng-touched.ng-invalid {
   padding: 1rem;
   font-size: 18px;
   color: #ffffff;
+  background: rgb(0, 240, 250);
   background: linear-gradient(
     90deg,
-    rgba(0, 240, 250, 1) 38%,
-    rgba(242, 38, 227, 1) 100%
+    rgba(0, 240, 250, 1) 30%,
+    rgba(251, 133, 243, 1) 100%
   );
   background-size: 200% 200%;
   border: none;

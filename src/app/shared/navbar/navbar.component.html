@@ -8,7 +8,17 @@
     <span class="app-title">GameZone</span>
   </span>
 
-  <span class="nav-links">
+  <button
+    mat-icon-button
+    class="menu-button"
+    aria-label="Menu"
+    (click)="toggleMenu()"
+    *ngIf="isSmallScreen"
+  >
+    <mat-icon>menu</mat-icon>
+  </button>
+
+  <span class="nav-links" *ngIf="!isSmallScreen || isMenuOpen">
     <button mat-button routerLink="/auth/login" *ngIf="!(isLoggedIn$ | async)">
       <mat-icon>login</mat-icon> Login
     </button>
@@ -19,7 +29,6 @@
     >
       <mat-icon>person_add</mat-icon> Register
     </button>
-
     <button mat-button routerLink="/games" *ngIf="isLoggedIn$ | async">
       <mat-icon>videogame_asset</mat-icon> Games
     </button>

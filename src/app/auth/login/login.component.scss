@@ -35,8 +35,11 @@
   0% {
     background-position: 0% 50%;
   }
-  100% {
+  50% {
     background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
 
@@ -88,7 +91,7 @@ input.ng-touched.ng-invalid {
   color: #fd5bfd;
   font-weight: bold;
   letter-spacing: 2px;
-  // background-color: #ffffff;
+
   padding: 0 0.3rem;
 }
 

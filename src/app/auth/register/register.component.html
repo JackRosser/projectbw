@@ -1,5 +1,7 @@
-<div class="container d-flex justify-content-center align-items-center vh-100">
-  <div class="form-wrapper bg-white text-center p-4 rounded shadow">
+<div
+  class="login container-fluid d-flex justify-content-center align-items-center"
+>
+  <div class="form-wrapper text-center p-4 rounded shadow">
     <h2 class="bolder mb-4">Register a New Account</h2>
     <form [formGroup]="registerForm">
       <div class="input-group mb-3">
@@ -30,7 +32,6 @@
       </div>
       <button
         (click)="register()"
-        [disabled]="registerForm.invalid"
         type="submit"
         class="btn btn-primary w-100 register-button"
       >
