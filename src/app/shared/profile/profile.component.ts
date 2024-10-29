@@ -6,5 +6,20 @@ import { Component } from '@angular/core';
   styleUrl: './profile.component.scss'
 })
 export class ProfileComponent {
-  isCollapsed = true;
+  isFavoriteCollapsed = true;
+  isChatCollapsed = true;
+
+  toggleFavorite() {
+    this.isFavoriteCollapsed = !this.isFavoriteCollapsed;
+    if (!this.isFavoriteCollapsed) {
+      this.isChatCollapsed = true; // Chiude il pannello Chat
+    }
+  }
+
+  toggleChat() {
+    this.isChatCollapsed = !this.isChatCollapsed;
+    if (!this.isChatCollapsed) {
+      this.isFavoriteCollapsed = true; // Chiude il pannello Lista Preferiti
+    }
+}
 }

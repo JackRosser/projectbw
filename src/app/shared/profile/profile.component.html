@@ -11,25 +11,41 @@
         <button
           type="button"
           class="btn btn-outline-primary"
-          (click)="collapse.toggle()"
-          [attr.aria-expanded]="!isCollapsed"
-          aria-controls="collapseExample"
+          (click)="toggleFavorite()"
+          [attr.aria-expanded]="!isFavoriteCollapsed"
+          aria-controls="collapseFavorite"
         >
           Lista preferiti
         </button>
         <button
           type="button"
           class="btn btn-outline-primary ms-2"
-          (click)="isCollapsed = !isCollapsed"
-          [attr.aria-expanded]="!isCollapsed"
-          aria-controls="collapseExample"
+          (click)="toggleChat()"
+          [attr.aria-expanded]="!isChatCollapsed"
+          aria-controls="collapseChat"
         >
           Chat
         </button>
       </p>
-      <div #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed">
+
+      <!-- Pannello Lista Preferiti -->
+      <div
+        #collapseFavorite="ngbCollapse"
+        [(ngbCollapse)]="isFavoriteCollapsed"
+      >
         <div class="card">
           <div class="card-body">Giochi preferiti</div>
+        </div>
+      </div>
+
+      <!-- Pannello Chat -->
+      <div
+        #collapseChat="ngbCollapse"
+        [(ngbCollapse)]="isChatCollapsed"
+        class="mt-3"
+      >
+        <div class="card">
+          <div class="card-body">Chat</div>
         </div>
       </div>
     </div>
