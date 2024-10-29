@@ -45,3 +45,28 @@
     left: 2.5rem;
   }
 }
+
+.favorite-game-img {
+  height: 5rem;
+}
+
+.delete {
+  color: red;
+  cursor: pointer;
+  background-color: white;
+  padding-inline: 5px;
+  padding-block: 2px;
+  border-radius: 50%;
+  transition: transform;
+  transition-duration: 300ms;
+  border: 1px solid white;
+}
+
+.delete:hover {
+  transform: scale(1.5);
+}
+
+.delete:active {
+  background-color: black;
+  color: white;
+}
