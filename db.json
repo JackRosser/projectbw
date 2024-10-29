@@ -24,184 +24,106 @@
   ],
   "games": [
     {
-      "id": 1,
-      "cover": "https://m.media-amazon.com/images/I/91zYKmF4jjL._AC_UL320_.jpg",
-      "title": "The Legend of Zelda: Breath of the Wild",
-      "genere": "Adventure"
-    },
-    {
-      "id": 2,
-      "cover": "https://m.media-amazon.com/images/I/91-VfRp-i0L._AC_UL320_.jpg",
-      "title": "Super Mario Odyssey",
-      "genere": "Platform"
-    },
-    {
       "id": 3,
-      "cover": "cover3.jpg",
+      "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202211/0711/kh4MUIuMmHlktOHar3lVl6rY.png?w=440&thumb=false",
       "title": "The Witcher 3: Wild Hunt",
       "genere": "RPG"
     },
     {
       "id": 4,
-      "cover": "cover4.jpg",
+      "cover": "https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.png?w=440&thumb=false",
       "title": "Red Dead Redemption 2",
       "genere": "Action-Adventure"
     },
     {
       "id": 5,
-      "cover": "cover5.jpg",
+      "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202407/0401/670c294ded3baf4fa11068db2ec6758c63f7daeb266a35a1.png?w=440&thumb=false",
       "title": "Minecraft",
       "genere": "Sandbox"
     },
     {
       "id": 6,
-      "cover": "cover6.jpg",
+      "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202311/2801/803e41fee0edf8f8ed1de518e6eac60ddf30ac485b9a16a2.png?w=440&thumb=false",
       "title": "Fortnite",
       "genere": "Battle Royale"
     },
     {
-      "id": 7,
-      "cover": "cover7.jpg",
-      "title": "League of Legends",
-      "genere": "MOBA"
-    },
-    {
       "id": 8,
-      "cover": "cover8.jpg",
+      "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202104/0517/9AcM3vy5t77zPiJyKHwRfnNT.png?w=440&thumb=false",
       "title": "Hades",
       "genere": "Roguelike"
     },
     {
       "id": 9,
-      "cover": "cover9.jpg",
+      "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202008/0416/6Bo40lnWU0BhgrOUm7Cb6by3.png?w=440&thumb=false",
       "title": "Cyberpunk 2077",
       "genere": "RPG"
     },
     {
       "id": 10,
-      "cover": "cover10.jpg",
+      "cover": "https://image.api.playstation.com/vulcan/img/rnd/202011/1021/X3WIAh63yKhRRiMohLoJMeQu.png?w=440&thumb=false",
       "title": "God of War",
       "genere": "Action"
     },
     {
       "id": 11,
-      "cover": "cover11.jpg",
+      "cover": "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_5/SQ_NSwitch_AnimalCrossingNewHorizons_image500w.jpg",
       "title": "Animal Crossing: New Horizons",
       "genere": "Simulation"
     },
     {
       "id": 12,
-      "cover": "cover12.jpg",
+      "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202010/0114/ERNPc4gFqeRDG1tYQIfOKQtM.png?w=440&thumb=false",
       "title": "DOOM Eternal",
       "genere": "FPS"
     },
     {
       "id": 13,
-      "cover": "cover13.jpg",
+      "cover": "https://image.api.playstation.com/vulcan/img/rnd/202107/0115/D5IIJwm65MLMPENwWzzO7rjd.png?w=440&thumb=false",
       "title": "Among Us",
       "genere": "Party"
     },
     {
       "id": 14,
-      "cover": "cover14.jpg",
+      "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202410/0800/d5bd637fe26cf3589f18a8bb1c4a9f8984b40eee8bc2ca97.png?w=440&thumb=false",
       "title": "Overwatch",
       "genere": "FPS"
     },
     {
       "id": 15,
-      "cover": "cover15.jpg",
+      "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202408/2010/6e7d87fef87405e9925e810a1620df04c3b98c2086711336.png?w=440&thumb=false",
       "title": "Genshin Impact",
       "genere": "RPG"
     },
     {
       "id": 16,
-      "cover": "cover16.jpg",
+      "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202007/0208/Ud7Ikvjoyev61bx3n1PTC9u8.png?w=440&thumb=false",
       "title": "Assassin's Creed Valhalla",
       "genere": "Action-Adventure"
     },
     {
       "id": 17,
-      "cover": "cover17.jpg",
+      "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202211/3007/lgFVhRm5BfoX02pRUt3lSmLV.png?w=440&thumb=false",
       "title": "Final Fantasy XV",
       "genere": "RPG"
     },
     {
       "id": 18,
-      "cover": "cover18.jpg",
+      "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202101/0812/FkzwjnJknkrFlozkTdeQBMub.png?w=440&thumb=false",
       "title": "Resident Evil Village",
       "genere": "Horror"
     },
     {
       "id": 19,
-      "cover": "cover19.jpg",
+      "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202408/0817/4248a0d1a669210e5caf5174eda176c7883be2c9089fa106.png?w=440&thumb=false",
       "title": "FIFA 21",
       "genere": "Sports"
     },
     {
       "id": 20,
-      "cover": "cover20.jpg",
+      "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202312/0123/978efa66c9645e4692ac7036a31aa002a49d0efb4b88b45c.png?w=440&thumb=false",
       "title": "Call of Duty: Warzone",
       "genere": "Battle Royale"
-    },
-    {
-      "id": 21,
-      "cover": "cover21.jpg",
-      "title": "Ghost of Tsushima",
-      "genere": "Action-Adventure"
-    },
-    {
-      "id": 22,
-      "cover": "cover22.jpg",
-      "title": "Hollow Knight",
-      "genere": "Metroidvania"
-    },
-    {
-      "id": 23,
-      "cover": "cover23.jpg",
-      "title": "Celeste",
-      "genere": "Platform"
-    },
-    {
-      "id": 24,
-      "cover": "cover24.jpg",
-      "title": "Stardew Valley",
-      "genere": "Simulation"
-    },
-    {
-      "id": 25,
-      "cover": "cover25.jpg",
-      "title": "Dark Souls III",
-      "genere": "Action-RPG"
-    },
-    {
-      "id": 26,
-      "cover": "cover26.jpg",
-      "title": "Bloodborne",
-      "genere": "Action-RPG"
-    },
-    {
-      "id": 27,
-      "cover": "cover27.jpg",
-      "title": "Persona 5",
-      "genere": "JRPG"
-    },
-    {
-      "id": 28,
-      "cover": "cover28.jpg",
-      "title": "Monster Hunter: World",
-      "genere": "Action"
-    },
-    {
-      "id": 29,
-      "cover": "cover29.jpg",
-      "title": "Apex Legends",
-      "genere": "Battle Royale"
-    },
-    {
-      "id": 30,
-      "cover": "cover30.jpg",
-      "title": "Destiny 2",
-      "genere": "FPS"
     }
   ]
 }
