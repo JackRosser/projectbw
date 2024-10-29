@@ -38,48 +38,61 @@ export class AuthService {
   login(authData: iLogin) {
     return this.http.post<iaccessData>(this.loginUrl, authData).pipe(
       tap((userAccessData) => {
-        this.authSubject$.next(userAccessData);
+     this.authSubject$.next(userAccessData);
+    localStorage.setItem('userAccessData', JSON.stringify(userAccessData));
 
-        localStorage.setItem('userAccessData', JSON.stringify(userAccessData));
 
-        const token = this.jwtHelper.getTokenExpirationDate(
+        const tokenExpirationDate = this.jwtHelper.getTokenExpirationDate(
           userAccessData.accessToken
         ) as Date;
 
-        if (!token) return;
-        this.autoLogout(token);
+        if (tokenExpirationDate) {
+          this.autoLogout(tokenExpirationDate);
+        }
       })
     );
   }
 
   logout() {
     this.authSubject$.next(null);
-    localStorage.removeItem('accessData');
+    localStorage.removeItem('userAccessData');
     this.router.navigate(['/auth/login']);
   }
 
   autoLogoutTimer: any;
 
-  autoLogout(token: Date) {
+  autoLogout(expirationDate: Date) {
     clearTimeout(this.autoLogoutTimer);
-    const expMs = token.getTime() - new Date().getTime();
+    const expirationMs = expirationDate.getTime() - new Date().getTime();
 
     this.autoLogoutTimer = setTimeout(() => {
       this.logout();
-    }, expMs);
+    }, expirationMs);
   }
 
   restoreUser() {
-    const userJson: string | null = localStorage.getItem('accessData');
+
+    const userJson: string | null = localStorage.getItem('userAccessData');
     if (!userJson) return;
 
     const accessData: iaccessData = JSON.parse(userJson);
 
+
     if (this.jwtHelper.isTokenExpired(accessData.accessToken)) {
-      localStorage.removeItem('accessData');
+      localStorage.removeItem('userAccessData');
       return;
     }
 
+
     this.authSubject$.next(accessData);
+
+
+    const tokenExpirationDate = this.jwtHelper.getTokenExpirationDate(
+      accessData.accessToken
+    ) as Date;
+
+    if (tokenExpirationDate) {
+      this.autoLogout(tokenExpirationDate);
+    }
   }
 }

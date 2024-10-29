@@ -1,0 +1,46 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  align-items: center;
+}
+
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+  margin-right: 8px;
+}
+
+.app-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.mat-button .mat-icon {
+  margin-right: 4px;
+  color: #ffeb3b;
+}
+
+.mat-button {
+  color: white;
+  font-weight: 500;
+}
+
+.mat-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
