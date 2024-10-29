@@ -25,19 +25,19 @@
   "games": [
     {
       "id": 1,
-      "cover": "https://m.media-amazon.com/images/I/91zYKmF4jjL._AC_UL320_.jpg",
+      "cover": "https://img-eshop.cdn.nintendo.net/i/7c8f2e897c9e025649f97d4c9d5e1f92497bd6217bd442d6de8de17c46142e78.jpg",
       "title": "The Legend of Zelda: Breath of the Wild",
       "genere": "Adventure"
     },
     {
       "id": 2,
-      "cover": "https://m.media-amazon.com/images/I/91-VfRp-i0L._AC_UL320_.jpg",
+      "cover": "https://img-eshop.cdn.nintendo.net/i/81f1c60ce9eed5d82fd9b5f8c4f2e35cd97e7dec3ad919957c5ee4ddcea148e5.jpg",
       "title": "Super Mario Odyssey",
       "genere": "Platform"
     },
     {
       "id": 3,
-      "cover": "cover3.jpg",
+      "cover": "chttps://img-eshop.cdn.nintendo.net/i/326d245efb39160ec86f1f48f7808179033b0d1ddef655b85510eb993c1ec1dd.jpg",
       "title": "The Witcher 3: Wild Hunt",
       "genere": "RPG"
     },
@@ -49,25 +49,25 @@
     },
     {
       "id": 5,
-      "cover": "cover5.jpg",
+      "cover": "https://img-eshop.cdn.nintendo.net/i/8f663ba4549d921ab476215a340f37fd0abbb5b1fdda24d06b1e1970f97dc8f8.jpg",
       "title": "Minecraft",
       "genere": "Sandbox"
     },
     {
       "id": 6,
-      "cover": "cover6.jpg",
+      "cover": "https://img-eshop.cdn.nintendo.net/i/c7d855443d9ed9d8aa7638f548044a2987c7f22a6dab3136916fcc811039a64b.jpg",
       "title": "Fortnite",
       "genere": "Battle Royale"
     },
     {
       "id": 7,
-      "cover": "cover7.jpg",
+      "cover": "https://img-eshop.cdn.nintendo.net/i/189b149886f43179d9f13a7bc13eab97316ab79c50366dacba06263ff977c8fe.jpg",
       "title": "League of Legends",
       "genere": "MOBA"
     },
     {
       "id": 8,
-      "cover": "cover8.jpg",
+      "cover": "https://img-eshop.cdn.nintendo.net/i/dbc8c55a21688b446a5c57711b726956483a14ef8c5ddb861f897c0595ccb6b5.jpg",
       "title": "Hades",
       "genere": "Roguelike"
     },
