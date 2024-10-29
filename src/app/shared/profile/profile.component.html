@@ -6,34 +6,32 @@
         <i class="bi bi-pencil edit"></i>
       </div>
     </div>
-    <!-- <div class="col-12 border">
-        <p>
-          <button
-            type="button"
-            class="btn btn-outline-primary"
-            (click)="collapse.toggle()"
-            [attr.aria-expanded]="!isCollapsed"
-            aria-controls="collapseExample"
-          >
-            Lista preferiti
-          </button>
-          <button
-            type="button"
-            class="btn btn-outline-primary ms-2"
-            (click)="isCollapsed = !isCollapsed"
-            [attr.aria-expanded]="!isCollapsed"
-            aria-controls="collapseExample"
-          >
-            Chat
-          </button>
-        </p>
-        <div #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed">
-          <div class="card">
-            <div class="card-body">
-              You can collapse this card by clicking one Toggle button
-            </div>
-          </div>
+    <div class="col-12 text-center mt-5">
+      <p>
+        <button
+          type="button"
+          class="btn btn-outline-primary"
+          (click)="collapse.toggle()"
+          [attr.aria-expanded]="!isCollapsed"
+          aria-controls="collapseExample"
+        >
+          Lista preferiti
+        </button>
+        <button
+          type="button"
+          class="btn btn-outline-primary ms-2"
+          (click)="isCollapsed = !isCollapsed"
+          [attr.aria-expanded]="!isCollapsed"
+          aria-controls="collapseExample"
+        >
+          Chat
+        </button>
+      </p>
+      <div #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed">
+        <div class="card">
+          <div class="card-body">Giochi preferiti</div>
         </div>
-      </div> -->
+      </div>
+    </div>
   </div>
 </section>
