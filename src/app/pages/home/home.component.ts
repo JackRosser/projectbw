@@ -13,11 +13,22 @@ export class HomeComponent implements OnInit {
 
   currentIndex: number = 0;
 
+  userId: number | null = null;
+
   constructor(private authSvc: AuthService, private userSvc: UserService) {}
   ngOnInit(): void {
+    this.authSvc.user$.subscribe((user) => {
+      if (user) {
+        this.userId = user.id;
+      }
+    });
+
     this.userSvc.getUsers().subscribe((user: iUser[]) => {
-      this.arrUsers = user;
-      console.log(this.arrUsers);
+      if (this.userId !== null) {
+        this.arrUsers = user.filter((u) => u.id !== this.userId);
+      } else {
+        this.arrUsers = user;
+      }
     });
   }
 
