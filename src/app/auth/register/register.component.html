@@ -4,7 +4,7 @@
   <div class="form-wrapper text-center p-4 rounded shadow">
     <h2 class="bolder mb-4">Register a New Account</h2>
     <form [formGroup]="registerForm">
-      <!-- Nickname Input Group -->
+      <!-- Nickname  -->
       <div class="input-group mb-3">
         <input formControlName="nickname" type="text" id="nickname" required />
         <label for="nickname">Nickname</label>
@@ -29,7 +29,7 @@
         </div>
       </div>
 
-      <!-- Email Input Group -->
+      <!-- Email  -->
       <div class="input-group mb-3">
         <input formControlName="email" type="email" id="email" required />
         <label for="email">Email</label>
@@ -60,7 +60,7 @@
         </div>
       </div>
 
-      <!-- Password Input Group -->
+      <!-- Password  -->
       <div class="input-group mb-3">
         <input
           formControlName="password"
@@ -90,7 +90,7 @@
         </div>
       </div>
 
-      <!-- Description Input Group -->
+      <!-- Description  -->
       <div class="input-group mb-4">
         <textarea
           formControlName="description"
@@ -102,7 +102,7 @@
         <label for="description">Describe your Profile</label>
       </div>
 
-      <!-- Submit Button -->
+      <!-- Button -->
       <button
         (click)="register()"
         type="submit"
