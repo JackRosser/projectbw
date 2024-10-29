@@ -1,5 +1,10 @@
 <nav class="gap-4">
   <span class="text-white">Ivan</span>
-  <img src="/images/avatartest.webp" alt="avatar" class="navavatar" />
+  <img
+    src="/images/avatartest.webp"
+    alt="avatar"
+    class="navavatar"
+    (click)="profileAppear()"
+  />
 </nav>
-<app-profile></app-profile>
+<app-profile [profileOn]="profileOn"></app-profile>

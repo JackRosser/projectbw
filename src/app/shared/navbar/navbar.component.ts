@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+profileOn:boolean = false
+
+profileAppear():void {
+this.profileOn = !this.profileOn
 }
+}
+
+
