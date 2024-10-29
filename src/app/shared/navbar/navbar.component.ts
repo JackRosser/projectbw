@@ -8,42 +8,54 @@ import { Observable } from 'rxjs';
   styleUrls: ['./navbar.component.scss'],
 })
 export class NavbarComponent {
-  // Aggiungi `isLoggedIn$` come Observable che si abbona a `isLoggedIn$` di AuthService
 
   isLoggedIn$: Observable<boolean>;
 
-  constructor(private authService: AuthService) {
-    // Assegna `isLoggedIn$` dal servizio all'osservabile locale
-    this.isLoggedIn$ = this.authService.isLoggedIn$;
-  }
 
   isMenuOpen = false;
   isSmallScreen = false;
+
+
+  profileOn: boolean = false;
+
+  constructor(private authService: AuthService) {
+
+    this.isLoggedIn$ = this.authService.isLoggedIn$;
+  }
 
   ngOnInit() {
     this.checkScreenSize();
   }
 
+
   toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen;
   }
+
 
   @HostListener('window:resize', ['$event'])
   onResize(event: Event) {
     this.checkScreenSize();
   }
 
+
   checkScreenSize() {
     this.isSmallScreen = window.innerWidth <= 768;
+
+    if (!this.isSmallScreen) {
+      this.isMenuOpen = false;
+    }
   }
 
-  profileOn: boolean = false;
 
   profileAppear(): void {
     this.profileOn = !this.profileOn;
   }
 
+
   logout() {
     this.authService.logout();
+    this.isMenuOpen = false;
+    this.profileOn = false;
   }
 }

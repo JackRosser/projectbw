@@ -32,10 +32,6 @@
   gap: 1rem;
 }
 
-.hidden-links {
-  display: none;
-}
-
 .menu-button {
   display: none;
 }
@@ -55,7 +51,25 @@
   border-radius: 4px;
 }
 
-/* Media query per schermi piccoli */
+
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  color: white;
+  position: absolute;
+  top: 7vh;
+  width: 100%;
+  z-index: 800;
+  padding: 10px 0;
+}
+
+.dropdown-menu button {
+  width: 100%;
+  text-align: left;
+}
+
+
 @media (max-width: 768px) {
   .app-title {
     font-size: 1.2rem;
@@ -68,5 +82,9 @@
   .navbar-brand {
     flex-grow: 1;
     justify-content: center;
+  }
+
+  .nav-links {
+    display: none;
   }
 }
