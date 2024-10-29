@@ -26,9 +26,6 @@
     <button mat-button *ngIf="isLoggedIn$ | async" (click)="profileAppear()">
       <mat-icon>account_circle</mat-icon> Profile
     </button>
-    <button mat-button routerLink="/users" *ngIf="isLoggedIn$ | async">
-      <mat-icon>group</mat-icon> Users
-    </button>
     <button mat-button (click)="logout()" *ngIf="isLoggedIn$ | async">
       <mat-icon>logout</mat-icon> Logout
     </button>
