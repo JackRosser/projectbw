@@ -75,3 +75,14 @@ li {
   margin-bottom: 5px;
   background-color: black;
 }
+
+.chat-avatar {
+  max-height: 5rem;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.chat-avatar:hover {
+  opacity: 0.8;
+}
