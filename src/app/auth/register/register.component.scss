@@ -44,7 +44,8 @@
   margin: 2rem 0;
 }
 
-.input-group input {
+.input-group input,
+textarea {
   width: 100%;
   padding: 1rem;
   font-size: 18px;
@@ -59,12 +60,14 @@
   transition: border-color 0.5s ease, box-shadow 0.5s ease;
 }
 
-.input-group input:focus {
+.input-group input:focus,
+textarea:focus {
   border-color: green;
   box-shadow: 0 0 10px rgba(102, 126, 234, 0.3);
 }
 
-input.ng-touched.ng-invalid {
+input.ng-touched.ng-invalid,
+textarea.ng-touched.ng-invalid {
   border: 2px solid red;
 }
 
@@ -73,14 +76,16 @@ input.ng-touched.ng-invalid {
   top: 50%;
   left: 0.75rem;
   font-size: 18px;
-  color: #aaa;
+  color: #fd5bfd;
   pointer-events: none;
   transform: translateY(-50%);
   transition: all 0.3s ease;
 }
 
 .input-group input:focus + label,
-.input-group input:not(:placeholder-shown) + label {
+.input-group input:not(:placeholder-shown) + label,
+.input-group textarea:focus + label,
+.input-group textarea:not(:placeholder-shown) + label {
   top: -10px;
   left: 0.7rem;
   font-size: 16px;

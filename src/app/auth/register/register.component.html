@@ -4,14 +4,63 @@
   <div class="form-wrapper text-center p-4 rounded shadow">
     <h2 class="bolder mb-4">Register a New Account</h2>
     <form [formGroup]="registerForm">
+      <!-- Nickname Input Group -->
       <div class="input-group mb-3">
         <input formControlName="nickname" type="text" id="nickname" required />
         <label for="nickname">Nickname</label>
+        <div
+          *ngIf="
+            registerForm.get('nickname')?.touched &&
+            registerForm.get('nickname')?.invalid
+          "
+        >
+          <small
+            class="text-danger fw-bold fs-5 ms-1"
+            *ngIf="registerForm.get('nickname')?.errors?.['required']"
+          >
+            Name is required
+          </small>
+          <small
+            class="text-danger fw-bold fs-5 ms-1"
+            *ngIf="registerForm.get('nickname')?.errors?.['minlength']"
+          >
+            Name must be at least 4 characters long
+          </small>
+        </div>
       </div>
+
+      <!-- Email Input Group -->
       <div class="input-group mb-3">
         <input formControlName="email" type="email" id="email" required />
         <label for="email">Email</label>
+        <div
+          *ngIf="
+            registerForm.get('email')?.touched &&
+            registerForm.get('email')?.invalid
+          "
+        >
+          <small
+            class="text-danger fw-bold fs-5 ms-1"
+            *ngIf="registerForm.get('email')?.errors?.['required']"
+          >
+            Email is required
+          </small>
+          <small
+            class="text-danger fw-bold fs-5 ms-1"
+            *ngIf="registerForm.get('email')?.errors?.['email']"
+          >
+            Please enter a valid email format.
+          </small>
+          <small
+            class="text-danger fw-bold fs-5 ms-1"
+            *ngIf="registerForm.get('email')?.errors?.['pattern']"
+          >
+            Please use an email from an accepted domain.
+          </small>
+        </div>
       </div>
+
+      <!-- Password Input Group -->
       <div class="input-group mb-3">
         <input
           formControlName="password"
@@ -20,16 +69,40 @@
           required
         />
         <label for="password">Password</label>
+        <div
+          *ngIf="
+            registerForm.get('password')?.touched &&
+            registerForm.get('password')?.invalid
+          "
+        >
+          <small
+            class="text-danger fw-bold fs-5 ms-1"
+            *ngIf="registerForm.get('password')?.errors?.['required']"
+          >
+            Password is required
+          </small>
+          <small
+            class="text-danger fw-bold fs-5 ms-1"
+            *ngIf="registerForm.get('password')?.errors?.['minlength']"
+          >
+            Password must be at least 8 characters long
+          </small>
+        </div>
       </div>
+
+      <!-- Description Input Group -->
       <div class="input-group mb-4">
-        <input
+        <textarea
           formControlName="description"
           type="text"
           id="description"
           required
-        />
-        <label for="description">Description</label>
+        >
+        </textarea>
+        <label for="description">Describe your Profile</label>
       </div>
+
+      <!-- Submit Button -->
       <button
         (click)="register()"
         type="submit"
