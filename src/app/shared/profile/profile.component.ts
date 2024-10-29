@@ -29,10 +29,10 @@ appear:string = "transform: translateX(100vw); transition: transform; transition
 ngOnChanges(changes: SimpleChanges) {
   if (changes['profileOn'] && changes['profileOn'].currentValue !== undefined) {
     if (this.profileOn === true) {
-      this.appear = "transform: translateX(100%); transition: transform 300ms; ";
+      this.appear = "transform: translateX(0); transition: transform 300ms; ";
       this.profileOn = false;
     } else {
-      this.appear = "transform: translateX(0); transition: transform 300ms;";
+      this.appear = "transform: translateX(100%); transition: transform 300ms;";
       this.profileOn = true;
     }
   }
