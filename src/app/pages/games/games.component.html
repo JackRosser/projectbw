@@ -35,6 +35,12 @@
             </h5>
             <p class="card-text">{{ game.genere }}</p>
           </div>
+          <button
+            class="btn btn-outline-light mt-3 w-100"
+            (click)="addGameToFavorites(game)"
+          >
+            Aggiungi ai Preferiti
+          </button>
         </div>
       </div>
     </li>
