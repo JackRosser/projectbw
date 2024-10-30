@@ -21,15 +21,20 @@
       *ngFor="let game of filteredGamesList"
       class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4"
     >
-      <div class="card game">
-        <img
-          [src]="game.cover"
-          class="card-img-top"
-          [alt]="game.title + ' image'"
-        />
+      <div
+        class="card game"
+        [style.background-image]="'url(' + game.cover + ')'"
+        [style.background-size]="'cover'"
+        [style.background-repeat]="'no-repeat'"
+        [style.background-position]="'center'"
+      >
         <div class="card-body">
-          <h5 class="card-title">{{ game.title }}</h5>
-          <p class="card-text">{{ game.genere }}</p>
+          <div class="textDiv">
+            <h5 class="card-title">
+              {{ game.title }}
+            </h5>
+            <p class="card-text">{{ game.genere }}</p>
+          </div>
         </div>
       </div>
     </li>
