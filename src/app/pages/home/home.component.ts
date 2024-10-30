@@ -13,7 +13,6 @@ import { FavoriteService } from '../../services/favorite.service';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-<<<<<<< HEAD
   arrUsers$ = new BehaviorSubject<iUser[]>([]); // Lista degli utenti osservabile
   currentIndex: number = 0; // Indice dell'utente corrente
   userId: number | null = null; // ID dell'utente loggato
@@ -22,24 +21,6 @@ export class HomeComponent implements OnInit {
   previousMatchedUsers$ = new BehaviorSubject<number[]>([]); // Lista di utenti già scartati osservabile
   noMoreUsers: boolean = false; // Flag per la fine della lista utenti
   userFavUrl = environment.userFavUrl; // URL dei preferiti
-=======
-  arrUsers: iUser[] = [];
-allUsersList!: iUser[]
-
-
-  currentIndex: number = 0;
-
-  userId: number | null = null;
-  isFavorite: boolean = false;
-  //prova array
-  likeUsers: iUser[] = [];
-  previousMatchedUsers: number[] = [];
-  noMoreUsers: boolean = false;
-
-  private favoritesSubject = new BehaviorSubject<iFavoriteUser[]>([]);
-
-  userFavUrl = environment.userFavUrl;
->>>>>>> 1e8a2b2caf3344d3cb3371813cf859f5df6d4dbc
 
   constructor(
     private authSvc: AuthService,
@@ -48,14 +29,7 @@ allUsersList!: iUser[]
   ) {}
 
   ngOnInit(): void {
-<<<<<<< HEAD
     // Ottieni dettagli dell'utente loggato
-=======
-   this.userSvc.allUser$.subscribe(list => {
-    this.allUsersList = list
-
-  })
->>>>>>> 1e8a2b2caf3344d3cb3371813cf859f5df6d4dbc
     this.authSvc.user$.subscribe((user) => {
       if (user) {
         this.userId = user.id;
@@ -87,14 +61,7 @@ allUsersList!: iUser[]
         const filteredUsers = users.filter(
           (u) => u.id !== this.userId && !previousMatchedIds.includes(u.id)
         );
-<<<<<<< HEAD
         this.updateArrUsers(filteredUsers);
-=======
-        console.log("INIZIO", this.arrUsers);
-
-        // Salva l'elenco degli utenti aggiornato nel localStorage
-        localStorage.setItem('arrUsers', JSON.stringify(this.arrUsers));
->>>>>>> 1e8a2b2caf3344d3cb3371813cf859f5df6d4dbc
         this.updateFavoriteStatus();
       });
     });
@@ -169,27 +136,15 @@ allUsersList!: iUser[]
   likeUser() {
     this.addToFavorites();
     console.log('Utenti piaciuti:', this.likeUsers);
-
-    if(this.arrUsers.length === 0) {
-      this.popolation();
-    }
-    console.log("ARRAY SPOPOLATO", this.arrUsers);
-    console.log("ARRAY CLONE", this.allUsersList);
-
   }
 
-<<<<<<< HEAD
   // Scarta l'utente corrente
-=======
-
->>>>>>> 1e8a2b2caf3344d3cb3371813cf859f5df6d4dbc
   dislikeUser() {
     const userId = this.arrUsers$.value[this.currentIndex].id;
     this.addMatchedUser(userId);
     this.removeMatchedUser();
   }
 
-<<<<<<< HEAD
   // Rimuove l'utente corrente e passa al successivo
   private removeMatchedUser() {
     const updatedUsers = [...this.arrUsers$.value];
@@ -201,23 +156,6 @@ allUsersList!: iUser[]
       this.noMoreUsers = true;
     } else if (this.currentIndex >= updatedUsers.length) {
       this.currentIndex = 0;
-=======
-private popolation():void {
-this.arrUsers = this.allUsersList
-}
-
-
-  private removeMatchedUser() {
-
-    const removedUser = this.arrUsers.splice(this.currentIndex, 1)[0];
-    if (removedUser) {
-      this.previousMatchedUsers.push(removedUser.id);
-    }
-    if (this.arrUsers.length === 0) {
-      this.currentIndex = 0;
-    } else if (this.currentIndex >= this.arrUsers.length) {
-       this.currentIndex = 0;
->>>>>>> 1e8a2b2caf3344d3cb3371813cf859f5df6d4dbc
     }
     this.nextUser();
   }
