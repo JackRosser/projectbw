@@ -14,6 +14,8 @@ import { FavoriteService } from '../../services/favorite.service';
 })
 export class HomeComponent implements OnInit {
   arrUsers: iUser[] = [];
+allUsersList!: iUser[]
+
 
   currentIndex: number = 0;
 
@@ -34,6 +36,10 @@ export class HomeComponent implements OnInit {
     private favoriteSvc: FavoriteService
   ) {}
   ngOnInit(): void {
+   this.userSvc.allUser$.subscribe(list => {
+    this.allUsersList = list
+
+  })
     this.authSvc.user$.subscribe((user) => {
       if (user) {
         this.userId = user.id;
@@ -66,6 +72,8 @@ export class HomeComponent implements OnInit {
         this.arrUsers = this.arrUsers.filter(
           (user) => !previousMatchedUsers.includes(user.id)
         );
+        console.log("INIZIO", this.arrUsers);
+
         // Salva l'elenco degli utenti aggiornato nel localStorage
         localStorage.setItem('arrUsers', JSON.stringify(this.arrUsers));
         this.updateFavoriteStatus();
@@ -144,14 +152,28 @@ export class HomeComponent implements OnInit {
   likeUser() {
     this.addToFavorites();
     console.log('Utenti piaciuti:', this.likeUsers);
+
+    if(this.arrUsers.length === 0) {
+      this.popolation();
+    }
+    console.log("ARRAY SPOPOLATO", this.arrUsers);
+    console.log("ARRAY CLONE", this.allUsersList);
+
   }
+
 
   dislikeUser() {
     this.previousMatchedUsers.push(this.arrUsers[this.currentIndex].id);
     this.removeMatchedUser();
   }
 
+private popolation():void {
+this.arrUsers = this.allUsersList
+}
+
+
   private removeMatchedUser() {
+
     const removedUser = this.arrUsers.splice(this.currentIndex, 1)[0];
     if (removedUser) {
       this.previousMatchedUsers.push(removedUser.id);
@@ -159,7 +181,7 @@ export class HomeComponent implements OnInit {
     if (this.arrUsers.length === 0) {
       this.currentIndex = 0;
     } else if (this.currentIndex >= this.arrUsers.length) {
-      this.currentIndex = 0;
+       this.currentIndex = 0;
     }
     localStorage.setItem('arrUsers', JSON.stringify(this.arrUsers));
     localStorage.setItem(
