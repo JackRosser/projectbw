@@ -21,9 +21,18 @@ export class RegisterComponent {
 
   ngOnInit(): void {
     this.registerForm = this.formBuilder.group({
-      nickname: ['', [Validators.required]],
-      email: ['', [Validators.required, Validators.email]],
-      password: ['', [Validators.required]],
+      nickname: ['', [Validators.required, Validators.minLength(4)]],
+      email: [
+        '',
+        [
+          Validators.required,
+          Validators.email,
+          Validators.pattern(
+            /^[a-zA-Z0-9._%+-]+@(?:gmail\.com|yahoo\.com|outlook\.com|hotmail\.com)$/
+          ),
+        ],
+      ],
+      password: ['', [Validators.required, Validators.minLength(8)]],
       description: ['', [Validators.required]],
     });
   }

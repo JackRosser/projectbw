@@ -68,6 +68,10 @@ export class AuthService {
       this.logout();
     }, expirationMs);
   }
+  getUserId(): number | null {
+    const accessData = this.authSubject$.value;
+    return accessData?.user?.id ?? null;
+  }
 
   restoreUser() {
     const userJson: string | null = localStorage.getItem('userAccessData');

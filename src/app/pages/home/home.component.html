@@ -51,7 +51,12 @@
       <img src="/images/dislike.png" alt="dislike" class="like" />
     </div>
     <div class="col-6 d-flex justify-content-start align-items-center">
-      <img src="/images/like.png" alt="dislike" class="like" />
+      <img
+        src="/images/like.png"
+        alt="dislike"
+        class="like"
+        (click)="addToFavorites()"
+      />
     </div>
   </div>
   <div

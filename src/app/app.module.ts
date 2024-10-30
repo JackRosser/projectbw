@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { provideHttpClient } from '@angular/common/http';
+import { FavoritesComponent } from './pages/favorites/favorites.component';
 
 @NgModule({
   declarations: [AppComponent],
