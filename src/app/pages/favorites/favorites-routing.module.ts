@@ -4,7 +4,7 @@ import { FavoritesComponent } from './favorites.component';
 import { AuthGuard } from '../../auth/auth.guard';
 
 const routes: Routes = [
-  { path: '', component: FavoritesComponent, canActivate: [AuthGuard] },
+  { path: '', component: FavoritesComponent, canActivate: [AuthGuard], title:"favorites" },
 ];
 
 @NgModule({

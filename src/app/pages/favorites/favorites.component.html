@@ -1,18 +1,32 @@
-<div class="container mt-4">
-  <h2>I tuoi preferiti</h2>
-  <div *ngIf="favorites.length > 0; else noFavorites">
-    <div
-      *ngFor="let favorite of favorites"
-      class="favorite-item d-flex align-items-center my-3 p-3 shadow rounded"
-    >
-      <div class="favorite-details">
-        <h4>{{ favorite.user.nickname }}</h4>
-        <p>{{ favorite.user.description }}</p>
+<section class="favorites">
+  <div class="cont">
+    <div class="box">
+      <div class="img">
+        <div class="imgBx" style="--i: 1">
+          <img src="/images/avatartest.webp" alt="img" />
+        </div>
+        <div class="imgBx" style="--i: 2">
+          <img src="/images/avatartest.webp" alt="img" />
+        </div>
+        <div class="imgBx" style="--i: 3">
+          <img src="/images/avatartest.webp" alt="img" />
+        </div>
+        <div class="imgBx" style="--i: 4">
+          <img src="/images/avatartest.webp" alt="img" />
+        </div>
+        <div class="imgBx" style="--i: 5">
+          <img src="/images/avatartest.webp" alt="img" />
+        </div>
+        <div class="imgBx" style="--i: 6">
+          <img src="/images/avatartest.webp" alt="img" />
+        </div>
+        <div class="imgBx" style="--i: 7">
+          <img src="/images/avatartest.webp" alt="img" />
+        </div>
+        <div class="imgBx" style="--i: 8">
+          <img src="/images/avatartest.webp" alt="img" />
+        </div>
       </div>
     </div>
   </div>
-
-  <ng-template #noFavorites>
-    <p>Non hai ancora aggiunto nessun preferito.</p>
-  </ng-template>
-</div>
+</section>

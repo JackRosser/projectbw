@@ -6,5 +6,6 @@ export interface iUser {
   nickname:string,
   password:string,
   description:string,
-  favorites:iGame[]
+  favorites:iGame[],
+  avatar:string
 }
