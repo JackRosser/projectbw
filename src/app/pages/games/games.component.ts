@@ -1,22 +1,32 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { iGame } from '../../models/i-game';
 import { GameService } from '../../services/game.service';
 
 @Component({
   selector: 'app-games',
   templateUrl: './games.component.html',
-  styleUrl: './games.component.scss'
+  styleUrls: ['./games.component.scss']
 })
-export class GamesComponent {
+export class GamesComponent implements OnInit {
+  searchQuery: string = '';
+  gamesList: iGame[] = [];
+  filteredGamesList: iGame[] = [];
 
-constructor(private gameSvc:GameService) {}
+  constructor(private gameSvc: GameService) {}
 
-gamesList!: iGame[]
+  ngOnInit(): void {
+    this.gameSvc.game$.subscribe((list: iGame[]) => {
+      this.gamesList = list;
+      this.filteredGamesList = list;
+    });
+  }
 
-ngOnInit() {
-this.gameSvc.game$.subscribe(list => {
-  this.gamesList = list
-})
-}
-
+  filterGames(): void {
+    const query = this.searchQuery.toLowerCase();
+    this.filteredGamesList = this.gamesList.filter(
+      (game) =>
+        game.title.toLowerCase().includes(query) ||
+        game.genere.toLowerCase().includes(query)
+    );
+  }
 }
