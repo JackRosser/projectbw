@@ -63,4 +63,9 @@ export class FavoriteService {
       });
     }
   }
+
+  updateFavoritesInStorage(favorites: iFavoriteUser[]): void {
+    const favoriteIds = favorites.map((fav) => fav.userId);
+    localStorage.setItem('matchedUsers', JSON.stringify(favoriteIds));
+  }
 }
