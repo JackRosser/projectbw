@@ -2,7 +2,7 @@
   <div class="row p-md-5">
     <div class="col-12 d-flex justify-content-center col-xl-6">
       <div class="position-relative">
-        <img src="/images/avatartest.webp" alt="avatar" class="profileavatar" />
+        <img [src]="user.avatar" alt="avatar" class="profileavatar" />
         <i class="bi bi-pencil edit"></i>
       </div>
     </div>
@@ -96,9 +96,7 @@
     </div>
     <div class="col-12">
       <p class="m-0 bg-black text-white p-5 mt-5 rounded-5 position-relative">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum quas
-        omniue nisi rerum assumenda, ea modi expedita et iste eius repudiandae
-        quas voluptatem laudantium corrupti distinctio quos?
+        {{ user.description }}
         <button class="btn btn-primary editbio">Modifica bio</button>
       </p>
     </div>
