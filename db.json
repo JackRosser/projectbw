@@ -141,5 +141,16 @@
     }
   ],
   "favorite": [
+    {
+      "userId": 1,
+      "user": {
+        "email": "Mario@gmail.com",
+        "password": "$2a$10$Z9B6L5kPaxghI/sl2U2vSuPOdB/DCFVKFYapLQn89OVnGdViproQi",
+        "nickname": "Mario",
+        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq",
+        "id": 2
+      },
+      "id": 1
+    }
   ]
 }
