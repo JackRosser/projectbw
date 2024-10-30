@@ -1,4 +1,70 @@
+.slogan-container {
+  padding: 4rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  width: 480px;
+  max-width: 90%;
+  background-color: rgba(120, 125, 173, 0.6);
+  color: white;
+  position: relative;
+}
 
+.slogan-container h2 {
+  font-size: 2rem; /* Dimensione del titolo */
+  margin-bottom: 10px; /* Margine inferiore */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombra del testo */
+}
+
+.slogan-container p {
+  font-size: 1.2rem; /* Dimensione del paragrafo */
+  margin-bottom: 20px; /* Margine inferiore */
+  text-align: center; /* Allineamento del testo */
+}
+
+.slogan-container button {
+  font-size: 1.1rem; /* Dimensione del bottone */
+  padding: 10px 20px; /* Spaziatura interna del bottone */
+  border-radius: 5px; /* Bordo arrotondato del bottone */
+  background: linear-gradient(
+    90deg,
+    rgba(0, 240, 250, 1) 30%,
+    rgba(251, 133, 243, 1) 100%
+  );
+  border: none; /* Nessun bordo */
+  color: white; /* Colore del testo del bottone */
+  cursor: pointer; /* Cursore a mano */
+  transition: background-color 0.3s ease; /* Transizione per il colore di sfondo */
+}
+
+.slogan-container button:hover {
+  background-color: rgba(
+    0,
+    123,
+    255,
+    1
+  ); /* Colore di sfondo del bottone al passaggio del mouse */
+}
+
+/* Effetto di apparizione */
+.slogan-container.ng-enter {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+.slogan-container.ng-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.slogan-container.ng-leave {
+  opacity: 1;
+  transform: translateY(0);
+}
+.slogan-container.ng-leave-active {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
 
 .slogan {
   opacity: 0;
