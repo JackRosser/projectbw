@@ -397,6 +397,114 @@
         "avatar": "/images/avatar/8.webp"
       },
       "id": 4
+    },
+    {
+      "userId": 4,
+      "user": {
+        "email": "Giulia01@hotmail.com",
+        "password": "$2a$10$rMCCrxnVPEazrk.OWqUq1.LqnepUcWsC50sucDlZslTxVn119lfG.",
+        "nickname": "Fragolina",
+        "description": "Giulia, 23 anni - Fanatica di giochi di puzzle e avventure narrative. Ha una collezione di giochi retro e cerca qualcuno che apprezzi le serate tranquille davanti alla console.",
+        "id": 2,
+        "avatar": "/images/avatar/2.webp"
+      },
+      "id": 5
+    },
+    {
+      "userId": 4,
+      "user": {
+        "email": "marta@gmail.com",
+        "password": "$2a$10$Lo32sQ33jww0kmO6EJgV7O0lNVivTl/xUgpWpV32KdaFN3ZfiidLq",
+        "nickname": "Marta-san",
+        "description": "Marta, 30 anni - Ex-campionessa di giochi da tavolo digitali, ora si diverte con giochi indie. Cerca qualcuno che apprezzi giochi di nicchia e originali.",
+        "id": 7,
+        "avatar": "/images/avatar/7.webp"
+      },
+      "id": 6
+    },
+    {
+      "userId": 4,
+      "user": {
+        "email": "francesco@gmail.com",
+        "password": "$2a$10$8xGGXxG1LcM4qXwPCJDWf.eNnvheYDizTBb9eXOlRwI7UNKOK5bEy",
+        "nickname": "HotJoystick",
+        "description": "Francesco, 26 anni - Collezionista di carte e amante dei giochi di strategia a turni. Sogna qualcuno che capisca il valore delle carte rare.",
+        "id": 10,
+        "avatar": "/images/avatar/10.webp"
+      },
+      "id": 7
+    },
+    {
+      "userId": 4,
+      "user": {
+        "email": "riccardo@gmail.com",
+        "password": "$2a$10$fErAZ/f/oa6ftz.5W1fD1uLfBYuAvdLsRou7DNZVuzgVSKZ.bPOx.",
+        "nickname": "RespawnRomeo",
+        "description": "Riccardo, 29 anni - Nostalgico del retrogaming, adora le vecchie console. Vorrebbe incontrare qualcuno che apprezzi le glorie passate.",
+        "id": 12,
+        "avatar": "/images/avatar/12.webp"
+      },
+      "id": 8
+    },
+    {
+      "userId": 4,
+      "user": {
+        "email": "matteo@gmail.com",
+        "password": "$2a$10$DhAnhmZgZcBhWNXMSoef2u9befYg9vVN2fa51uWqp6Od5MxxbnWBO",
+        "nickname": "GigaHeartbreaker",
+        "description": "Matteo, 30 anni - Hacker amatoriale nei giochi di simulazione e realtà virtuale. Cerca una partner che sia affascinata dalle nuove tecnologie.",
+        "id": 14,
+        "avatar": "/images/avatar/14.webp"
+      },
+      "id": 9
+    },
+    {
+      "userId": 4,
+      "user": {
+        "email": "luca@gmail.com",
+        "password": "$2a$10$/m.QhfJ96Elv9QfcPoKZ1.dP7l.wW2Vfkh/ukbQUXya2LSDsVG.r6",
+        "nickname": "LuchinoAK47",
+        "description": "Luca, 24 anni - Giocatore di MOBA e strategia in tempo reale. Adora le sfide e cerca una compagna con cui pianificare strategie e scalare le classifiche.\n",
+        "id": 5,
+        "avatar": "/images/avatar/5.webp"
+      },
+      "id": 10
+    },
+    {
+      "userId": 4,
+      "user": {
+        "email": "sofia@gmail.com",
+        "password": "$2a$10$Eae/tkY1dN2Wd2G0RgsL9umRzUnIkvUkEwcOieAVC0cxx2mJxBoFK",
+        "nickname": "SpicySlayer",
+        "description": "Sofia, 24 anni - Fan degli sparatutto in terza persona e dei survival horror. È in cerca di una connessione con qualcuno che non abbia paura del brivido.",
+        "id": 11,
+        "avatar": "/images/avatar/11.webp"
+      },
+      "id": 11
+    },
+    {
+      "userId": 4,
+      "user": {
+        "email": "federica@gmail.com",
+        "password": "$2a$10$rSzFkVe9nj7scsQGRefc1Ol3yQunv2xi.6KH0Hc7FlUX8codTqM/a",
+        "nickname": "KissAndKill",
+        "description": "Federica, 28 anni - Appassionata di fantasy e giochi di carte digitali. Ama immergersi in universi ricchi di storia e cerca un compagno di avventure.",
+        "id": 15,
+        "avatar": "/images/avatar/15.webp"
+      },
+      "id": 12
+    },
+    {
+      "userId": 4,
+      "user": {
+        "email": "michele@gmail.com",
+        "password": "$2a$10$jMIozaLrVEfTpQDODxfj0eh5GomSLN/3czI5Hrj64IcpSRxuzt6AS",
+        "nickname": "JoystickJoker",
+        "description": "Se il mare aperto è anche il tuo richiamo e vuoi unirti a una vita di battaglie epiche e passioni ardenti, sali a bordo e vediamo insieme dove soffia il vento della sorte. Pronta a condividere un sorso di rum e qualche risata salata? Alza la vela e inviami un messaggio, tesoro. Ma attenzione: con un pirata come me, l'avventura non è mai lontana… e nemmeno i brividi d'emozione! ☠️⚓",
+        "id": 17,
+        "avatar": "/images/avatar/17.webp"
+      },
+      "id": 13
     }
   ]
 }

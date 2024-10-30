@@ -136,6 +136,8 @@ export class HomeComponent implements OnInit {
   likeUser() {
     this.addToFavorites();
     console.log('Utenti piaciuti:', this.likeUsers);
+
+
   }
 
   // Scarta l'utente corrente
