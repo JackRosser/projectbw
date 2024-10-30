@@ -4,7 +4,6 @@ import { CommonModule } from '@angular/common';
 import { SharedRoutingModule } from './shared-routing.module';
 import { SharedComponent } from './shared.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { FooterComponent } from './footer/footer.component';
 import { ProfileComponent } from './profile/profile.component';
 import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -18,7 +17,6 @@ import { MatIconModule } from '@angular/material/icon';
   declarations: [
     SharedComponent,
     NavbarComponent,
-    FooterComponent,
     ProfileComponent
   ],
   imports: [
@@ -32,7 +30,6 @@ NgbCollapseModule,
   ],
   exports: [
     NavbarComponent,
-    FooterComponent,
     MatToolbarModule,
     MatButtonModule,
     MatIconModule

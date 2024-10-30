@@ -11,18 +11,6 @@ main {
   background-position: center;
 }
 
-@media screen and (min-width: 992px) {
-  main {
-    height: 88vh;
-  }
-}
-
-footer {
-  background-color: black;
-  width: 100vw;
-  height: 5vh;
-}
-
 .avatar {
   border: 3px solid white;
   outline: 2px solid white;
