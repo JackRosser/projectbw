@@ -20,6 +20,20 @@
       "nickname": "tizio",
       "description": "fhbskhfgsdksgf",
       "id": 3
+    },
+    {
+      "email": "admin@admin",
+      "password": "$2a$10$z1GdVq5XaGPVBT0OFfBGv.PoWls3QMzm67.oXJKUi/9uDIG2bsrGm",
+      "nickname": "admin",
+      "description": "admin",
+      "id": 4
+    },
+    {
+      "email": "admin2@admin2",
+      "password": "$2a$10$k7dBhumQ5RwMCFrm6gBhsOXy0VVTkC8SSaj2OK2XMKRY5ABhSJMJ2",
+      "nickname": "admin2",
+      "description": "admin2",
+      "id": 5
     }
   ],
   "games": [
@@ -125,5 +139,7 @@
       "title": "Call of Duty: Warzone",
       "genere": "Battle Royale"
     }
+  ],
+  "favorite": [
   ]
 }

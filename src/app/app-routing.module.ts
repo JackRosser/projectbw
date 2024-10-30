@@ -19,7 +19,19 @@ const routes: Routes = [
     loadChildren: () =>
       import('./shared/shared.module').then((m) => m.SharedModule),
   },
-  { path: 'games', loadChildren: () => import('./pages/games/games.module').then(m => m.GamesModule), title: "games" },
+  {
+    path: 'games',
+    loadChildren: () =>
+      import('./pages/games/games.module').then((m) => m.GamesModule),
+  },
+  {
+    path: 'favorites',
+    loadChildren: () =>
+      import('./pages/favorites/favorites.module').then(
+        (m) => m.FavoritesModule
+      ),
+    canActivate: [AuthGuard],
+  },
 ];
 
 @NgModule({

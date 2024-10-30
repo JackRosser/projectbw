@@ -1,0 +1,18 @@
+<div class="container mt-4">
+  <h2>I tuoi preferiti</h2>
+  <div *ngIf="favorites.length > 0; else noFavorites">
+    <div
+      *ngFor="let favorite of favorites"
+      class="favorite-item d-flex align-items-center my-3 p-3 shadow rounded"
+    >
+      <div class="favorite-details">
+        <h4>{{ favorite.user.nickname }}</h4>
+        <p>{{ favorite.user.description }}</p>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #noFavorites>
+    <p>Non hai ancora aggiunto nessun preferito.</p>
+  </ng-template>
+</div>

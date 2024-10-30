@@ -8,18 +8,14 @@ import { Observable } from 'rxjs';
   styleUrls: ['./navbar.component.scss'],
 })
 export class NavbarComponent {
-
   isLoggedIn$: Observable<boolean>;
-
 
   isMenuOpen = false;
   isSmallScreen = false;
 
-
   profileOn: boolean = false;
 
   constructor(private authService: AuthService) {
-
     this.isLoggedIn$ = this.authService.isLoggedIn$;
   }
 
@@ -27,17 +23,14 @@ export class NavbarComponent {
     this.checkScreenSize();
   }
 
-
   toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen;
   }
-
 
   @HostListener('window:resize', ['$event'])
   onResize(event: Event) {
     this.checkScreenSize();
   }
-
 
   checkScreenSize() {
     this.isSmallScreen = window.innerWidth <= 768;
@@ -47,11 +40,9 @@ export class NavbarComponent {
     }
   }
 
-
   profileAppear(): void {
     this.profileOn = !this.profileOn;
   }
-
 
   logout() {
     this.authService.logout();
