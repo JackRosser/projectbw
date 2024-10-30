@@ -5,140 +5,160 @@
       "password": "$2a$10$t2KbqZdbfcORmCtIyfBbxeI5Wbv.lZrtMXfIzOxlK0UKTcbW2hdpG",
       "nickname": "Malandrino",
       "description": "Alex, 27 anni - Appassionato di giochi di ruolo online e streamer part-time. Adora esplorare mondi virtuali complessi e cerca qualcuno con cui condividere raid notturni.",
-      "id": 1
+      "id": 1,
+    "avatar": ""
     },
     {
       "email": "Giulia01@hotmail.com",
       "password": "$2a$10$rMCCrxnVPEazrk.OWqUq1.LqnepUcWsC50sucDlZslTxVn119lfG.",
       "nickname": "Fragolina",
       "description": "Giulia, 23 anni - Fanatica di giochi di puzzle e avventure narrative. Ha una collezione di giochi retro e cerca qualcuno che apprezzi le serate tranquille davanti alla console.",
-      "id": 2
+      "id": 2,
+    "avatar": ""
     },
     {
       "email": "Marco01@yahoo.com",
       "password": "$2a$10$3wx8cSeuYTGwvEcTNozyI.hCDvEhU1cllhrwVPHA1.5R6Lo6KRFVm",
       "nickname": "Marcolinho",
       "description": "Marco, 31 anni - Competitivo, amante degli FPS e degli sport virtuali. Sta cercando una compagna che condivida il suo entusiasmo per i tornei e gli e-sports.",
-      "id": 3
+      "id": 3,
+    "avatar": ""
     },
     {
       "email": "sonia@gmail.com",
       "password": "$2a$10$xc3jk5aYzu7wkipduDGZYerf5A.J5Mg18Nz8kLopUJoFWF9qxjpaC",
       "nickname": "Sonietta",
       "description": "Sonia, 28 anni - Giocatrice casual di giochi di simulazione e amica dei giochi rilassanti. Cerca qualcuno che ami esplorare mondi fantastici senza fretta.",
-      "id": 4
+      "id": 4,
+    "avatar": ""
     },
     {
       "email": "luca@gmail.com",
       "password": "$2a$10$/m.QhfJ96Elv9QfcPoKZ1.dP7l.wW2Vfkh/ukbQUXya2LSDsVG.r6",
       "nickname": "LuchinoAK47",
       "description": "Luca, 24 anni - Giocatore di MOBA e strategia in tempo reale. Adora le sfide e cerca una compagna con cui pianificare strategie e scalare le classifiche.\n",
-      "id": 5
+      "id": 5,
+    "avatar": ""
     },
     {
       "email": "alessia@gmail.com",
       "password": "$2a$10$Q/eE7Lie4QOd.O5RBO/d8OcitOkxd5LV4rdzK2MLuqc3YO71hSDpG",
       "nickname": "Alexa",
       "description": "Alessia, 25 anni - Esperta di RPG e fantasy. Sogna di trovare qualcuno che, come lei, preferisca mondi incantati e storie ricche di dettagli.\nDavide, 29 anni - Costruttore seriale di mondi in sandbox e appassionato di simulazioni. Ama chi condivide la passione per l'immaginazione e la costruzione.",
-      "id": 6
+      "id": 6,
+    "avatar": ""
     },
     {
       "email": "marta@gmail.com",
       "password": "$2a$10$Lo32sQ33jww0kmO6EJgV7O0lNVivTl/xUgpWpV32KdaFN3ZfiidLq",
       "nickname": "Marta-san",
       "description": "Marta, 30 anni - Ex-campionessa di giochi da tavolo digitali, ora si diverte con giochi indie. Cerca qualcuno che apprezzi giochi di nicchia e originali.",
-      "id": 7
+      "id": 7,
+    "avatar": ""
     },
     {
       "email": "roberto@gmail.com",
       "password": "$2a$10$AkvnCNU/WzQ.rRPJ5kDgdOURHt1AIRkKevwzlcFyHqCRfOR6SMx.K",
       "nickname": "Roby03",
       "description": "Roberto, 22 anni - Giocatore competitivo di battle royale. È sempre in cerca di adrenalina e vorrebbe incontrare qualcuno con cui migliorare e divertirsi",
-      "id": 8
+      "id": 8,
+    "avatar": ""
     },
     {
       "email": "claudia@gmail.com",
       "password": "$2a$10$kdS7i6umZCvF3oQf2MZIW.pISm8Fciwps2Rl0nVKWNzMTsWs8SrHq",
       "nickname": "LadyLethal",
       "description": "Claudia, 27 anni - Scrittrice e appassionata di giochi di narrazione interattiva. Ama chi sa immedesimarsi nei personaggi e nelle storie complesse.",
-      "id": 9
+      "id": 9,
+    "avatar": ""
     },
     {
       "email": "francesco@gmail.com",
       "password": "$2a$10$8xGGXxG1LcM4qXwPCJDWf.eNnvheYDizTBb9eXOlRwI7UNKOK5bEy",
       "nickname": "HotJoystick",
       "description": "Francesco, 26 anni - Collezionista di carte e amante dei giochi di strategia a turni. Sogna qualcuno che capisca il valore delle carte rare.",
-      "id": 10
+      "id": 10,
+    "avatar": ""
     },
     {
       "email": "sofia@gmail.com",
       "password": "$2a$10$Eae/tkY1dN2Wd2G0RgsL9umRzUnIkvUkEwcOieAVC0cxx2mJxBoFK",
       "nickname": "SpicySlayer",
       "description": "Sofia, 24 anni - Fan degli sparatutto in terza persona e dei survival horror. È in cerca di una connessione con qualcuno che non abbia paura del brivido.",
-      "id": 11
+      "id": 11,
+    "avatar": ""
     },
     {
       "email": "riccardo@gmail.com",
       "password": "$2a$10$fErAZ/f/oa6ftz.5W1fD1uLfBYuAvdLsRou7DNZVuzgVSKZ.bPOx.",
       "nickname": "RespawnRomeo",
       "description": "Riccardo, 29 anni - Nostalgico del retrogaming, adora le vecchie console. Vorrebbe incontrare qualcuno che apprezzi le glorie passate.",
-      "id": 12
+      "id": 12,
+    "avatar": ""
     },
     {
       "email": "elena@gmail.com",
       "password": "$2a$10$KDacEhUv3JZMilsbo7uEI.kAya./XJ6kuWc4i6GgEuDYWGJILWxBa",
       "nickname": "FragPrince(ss)",
       "description": "Elena, 26 anni - Creatrice di contenuti e amante dei giochi di avventura. Cerca qualcuno che possa ispirarla con nuove idee per il suo canale.",
-      "id": 13
+      "id": 13,
+    "avatar": ""
     },
     {
       "email": "matteo@gmail.com",
       "password": "$2a$10$DhAnhmZgZcBhWNXMSoef2u9befYg9vVN2fa51uWqp6Od5MxxbnWBO",
       "nickname": "GigaHeartbreaker",
       "description": "Matteo, 30 anni - Hacker amatoriale nei giochi di simulazione e realtà virtuale. Cerca una partner che sia affascinata dalle nuove tecnologie.",
-      "id": 14
+      "id": 14,
+    "avatar": ""
     },
     {
       "email": "federica@gmail.com",
       "password": "$2a$10$rSzFkVe9nj7scsQGRefc1Ol3yQunv2xi.6KH0Hc7FlUX8codTqM/a",
       "nickname": "KissAndKill",
       "description": "Federica, 28 anni - Appassionata di fantasy e giochi di carte digitali. Ama immergersi in universi ricchi di storia e cerca un compagno di avventure.",
-      "id": 15
+      "id": 15,
+    "avatar": ""
     },
     {
       "email": "gabriele@gmail.com",
       "password": "$2a$10$48t6rhom5A9qTHHbSWSPAe3Wz51gdAwrbei6E9SJMb7jf6uQGi3ZO",
       "nickname": "PixelKiller",
       "description": "Gabriele, 22 anni - Giocatore di MMO e amante delle gilde. Cerca qualcuno con cui combattere fianco a fianco e vivere epiche avventure online.\n",
-      "id": 16
+      "id": 16,
+    "avatar": ""
     },
     {
       "email": "michele@gmail.com",
       "password": "$2a$10$jMIozaLrVEfTpQDODxfj0eh5GomSLN/3czI5Hrj64IcpSRxuzt6AS",
       "nickname": "JoystickJoker",
       "description": "Michele, 25 anni - Nerd dei giochi di strategia, ama la complessità dei dettagli. È in cerca di una compagna di giochi che sia una pensatrice profonda.",
-      "id": 17
+      "id": 17,
+    "avatar": ""
     },
     {
       "email": "simone@gmail.com",
       "password": "$2a$10$6pcAnf6MIBBSyB7Pt5BEH.F/GzuTisrUyWzrhDiOaKwpGUhVPD9bC",
       "nickname": "BitOfLove",
       "description": "Simone, 24 anni - Esperto di giochi di simulazione e guida. Cerca qualcuno che ami rilassarsi esplorando mondi aperti.",
-      "id": 18
+      "id": 18,
+    "avatar": ""
     },
     {
       "email": "chiara@gmail.com",
       "password": "$2a$10$ZVgFxZW11DQM5WAtuZmCd.vXt9d/syY42bIL4n8wx/M3g3Qgov5rm",
       "nickname": "VictoryVixen",
       "description": "Chiara, 26 anni - Cosplayer e appassionata di action RPG. Vorrebbe conoscere qualcuno che apprezzi il lato creativo del gaming.",
-      "id": 19
+      "id": 19,
+    "avatar": ""
     },
     {
       "email": "andrea@gmail.com",
       "password": "$2a$10$LjO3MHMM4BvW318OsQIs3eneGSOFl87j.9BaunykFqw1CTnv0N06e",
       "nickname": "PlayerPleasure",
       "description": "Andrea, 27 anni - Competitivo nel mondo degli sport elettronici e appassionato di giochi di squadra. Spera di trovare una compagna per tornei di coppia.",
-      "id": 20
+      "id": 20,
+   "avatar": ""
     }
   ],
   "games": [
