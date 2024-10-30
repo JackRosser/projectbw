@@ -505,6 +505,66 @@
         "avatar": "/images/avatar/17.webp"
       },
       "id": 13
+    },
+    {
+      "userId": 4,
+      "user": {
+        "email": "claudia@gmail.com",
+        "password": "$2a$10$kdS7i6umZCvF3oQf2MZIW.pISm8Fciwps2Rl0nVKWNzMTsWs8SrHq",
+        "nickname": "LadyLethal",
+        "description": "Claudia, 27 anni - Scrittrice e appassionata di giochi di narrazione interattiva. Ama chi sa immedesimarsi nei personaggi e nelle storie complesse.",
+        "id": 9,
+        "avatar": "/images/avatar/9.webp"
+      },
+      "id": 14
+    },
+    {
+      "userId": 4,
+      "user": {
+        "email": "gabriele@gmail.com",
+        "password": "$2a$10$48t6rhom5A9qTHHbSWSPAe3Wz51gdAwrbei6E9SJMb7jf6uQGi3ZO",
+        "nickname": "PixelKiller",
+        "description": "Gabriele, 22 anni - Giocatore di MMO e amante delle gilde. Cerca qualcuno con cui combattere fianco a fianco e vivere epiche avventure online.\n",
+        "id": 16,
+        "avatar": "/images/avatar/16.webp"
+      },
+      "id": 15
+    },
+    {
+      "userId": 4,
+      "user": {
+        "email": "chiara@gmail.com",
+        "password": "$2a$10$ZVgFxZW11DQM5WAtuZmCd.vXt9d/syY42bIL4n8wx/M3g3Qgov5rm",
+        "nickname": "VictoryVixen",
+        "description": "Chiara, 26 anni - Cosplayer e appassionata di action RPG. Vorrebbe conoscere qualcuno che apprezzi il lato creativo del gaming.",
+        "id": 19,
+        "avatar": "/images/avatar/19.webp"
+      },
+      "id": 16
+    },
+    {
+      "userId": 4,
+      "user": {
+        "email": "elena@gmail.com",
+        "password": "$2a$10$KDacEhUv3JZMilsbo7uEI.kAya./XJ6kuWc4i6GgEuDYWGJILWxBa",
+        "nickname": "FragPrince(ss)",
+        "description": "Elena, 26 anni - Creatrice di contenuti e amante dei giochi di avventura. Cerca qualcuno che possa ispirarla con nuove idee per il suo canale.",
+        "id": 13,
+        "avatar": "/images/avatar/13.webp"
+      },
+      "id": 17
+    },
+    {
+      "userId": 4,
+      "user": {
+        "email": "andrea@gmail.com",
+        "password": "$2a$10$LjO3MHMM4BvW318OsQIs3eneGSOFl87j.9BaunykFqw1CTnv0N06e",
+        "nickname": "PlayerPleasure",
+        "description": "Andrea, 27 anni - Competitivo nel mondo degli sport elettronici e appassionato di giochi di squadra. Spera di trovare una compagna per tornei di coppia.",
+        "id": 20,
+        "avatar": "/images/avatar/20.webp"
+      },
+      "id": 18
     }
   ]
 }

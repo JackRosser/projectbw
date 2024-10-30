@@ -1,0 +1,23 @@
+
+
+.slogan {
+  opacity: 0;
+  animation: fadeInEffect 1.5s forwards;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+@keyframes fadeInEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

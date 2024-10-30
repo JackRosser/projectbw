@@ -174,4 +174,13 @@ export class HomeComponent implements OnInit {
     this.previousMatchedUsers$.next(updatedMatchedUsers);
     localStorage.setItem('matchedUsers', JSON.stringify(updatedMatchedUsers));
   }
+
+  mainContentVisible = false;
+
+  isSloganVisible = true;
+
+  showMainContent() {
+    this.isSloganVisible = false;
+    this.mainContentVisible = true;
+  }
 }
