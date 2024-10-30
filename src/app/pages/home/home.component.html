@@ -6,9 +6,7 @@
   <div class="row p-5">
     <div
       class="col-4 d-flex align-items-center justify-content-center col-lg-2"
-    >
-      <span (click)="previousUser()" class="swipesx">(</span>
-    </div>
+    ></div>
     <div
       class="col-4 d-flex justify-content-center align-items-center col-lg-2"
     >
@@ -20,9 +18,7 @@
     </div>
     <div
       class="col-4 d-flex align-items-center justify-content-center col-lg-2"
-    >
-      <span (click)="nextUser()" class="swipedx">)</span>
-    </div>
+    ></div>
     <div
       *ngIf="arrUsers.length > 0"
       class="col-12 d-flex flex-column justify-content-center align-items-center description col-lg-3 p-5 mt-5 mt-lg-0 rounded-5"
@@ -30,6 +26,7 @@
       <h2 class="display-4">{{ arrUsers[currentIndex].nickname }}</h2>
       <p>{{ arrUsers[currentIndex].description }}</p>
     </div>
+
     <div
       class="col-12 d-flex justify-content-center align-items-center col-lg-3 p-5 mt-5 mt-lg-0 rounded-5 bg-dark text-white d-none d-lg-block overflow-auto"
     >
@@ -48,14 +45,19 @@
   </div>
   <div class="row">
     <div class="col-6 d-flex justify-content-end align-items-center">
-      <img src="/images/dislike.png" alt="dislike" class="like" />
+      <img
+        src="/images/dislike.png"
+        alt="dislike"
+        class="like"
+        (click)="dislikeUser()"
+      />
     </div>
     <div class="col-6 d-flex justify-content-start align-items-center">
       <img
         src="/images/like.png"
         alt="dislike"
         class="like"
-        (click)="addToFavorites()"
+        (click)="likeUser()"
       />
     </div>
   </div>

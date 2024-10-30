@@ -34,6 +34,20 @@
       "nickname": "admin2",
       "description": "admin2",
       "id": 5
+    },
+    {
+      "email": "amio@gmail.com",
+      "password": "$2a$10$3To4u.vhEeiooMjJD7dMWuBkQue.I6j2poCc.La62G2Ut89.GuR0S",
+      "nickname": "amioa",
+      "description": "sfafaf",
+      "id": 6
+    },
+    {
+      "email": "gru@gmail.com",
+      "password": "$2a$10$WKiA8dnKGV66zsOzr/S8vu15/eN.6NQ6w6pFy0LkQ/kXHyJoneHjy",
+      "nickname": "grug",
+      "description": "sdhfajkhd",
+      "id": 7
     }
   ],
   "games": [
@@ -141,5 +155,137 @@
     }
   ],
   "favorite": [
+    {
+      "userId": 1,
+      "user": {
+        "email": "Mario@gmail.com",
+        "password": "$2a$10$Z9B6L5kPaxghI/sl2U2vSuPOdB/DCFVKFYapLQn89OVnGdViproQi",
+        "nickname": "Mario",
+        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq",
+        "id": 2
+      },
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "user": {
+        "email": "admin@admin",
+        "password": "$2a$10$z1GdVq5XaGPVBT0OFfBGv.PoWls3QMzm67.oXJKUi/9uDIG2bsrGm",
+        "nickname": "admin",
+        "description": "admin",
+        "id": 4
+      },
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "user": {
+        "email": "admin2@admin2",
+        "password": "$2a$10$k7dBhumQ5RwMCFrm6gBhsOXy0VVTkC8SSaj2OK2XMKRY5ABhSJMJ2",
+        "nickname": "admin2",
+        "description": "admin2",
+        "id": 5
+      },
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "user": {
+        "email": "tizio@gmail.com",
+        "password": "$2a$10$OaqbhMLIlT0n3Xzf0o3IVulHlQMIorHLbN5eigxQ4VFgL8e1gjWBW",
+        "nickname": "tizio",
+        "description": "fhbskhfgsdksgf",
+        "id": 3
+      },
+      "id": 4
+    },
+    {
+      "userId": 6,
+      "user": {
+        "email": "ciao@ciao.it",
+        "password": "$2a$10$xRgJNYswRhpnE8TysdN/6.YYFKkE4GBzrCic/xdcZVul91KnVgErm",
+        "nickname": "ciao",
+        "description": "khasdbfsdkhfhsdk",
+        "id": 1
+      },
+      "id": 5
+    },
+    {
+      "userId": 6,
+      "user": {
+        "email": "admin2@admin2",
+        "password": "$2a$10$k7dBhumQ5RwMCFrm6gBhsOXy0VVTkC8SSaj2OK2XMKRY5ABhSJMJ2",
+        "nickname": "admin2",
+        "description": "admin2",
+        "id": 5
+      },
+      "id": 6
+    },
+    {
+      "userId": 6,
+      "user": {
+        "email": "tizio@gmail.com",
+        "password": "$2a$10$OaqbhMLIlT0n3Xzf0o3IVulHlQMIorHLbN5eigxQ4VFgL8e1gjWBW",
+        "nickname": "tizio",
+        "description": "fhbskhfgsdksgf",
+        "id": 3
+      },
+      "id": 7
+    },
+    {
+      "userId": 6,
+      "user": {
+        "email": "admin@admin",
+        "password": "$2a$10$z1GdVq5XaGPVBT0OFfBGv.PoWls3QMzm67.oXJKUi/9uDIG2bsrGm",
+        "nickname": "admin",
+        "description": "admin",
+        "id": 4
+      },
+      "id": 8
+    },
+    {
+      "userId": 6,
+      "user": {
+        "email": "Mario@gmail.com",
+        "password": "$2a$10$Z9B6L5kPaxghI/sl2U2vSuPOdB/DCFVKFYapLQn89OVnGdViproQi",
+        "nickname": "Mario",
+        "description": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq",
+        "id": 2
+      },
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "user": {
+        "email": "amio@gmail.com",
+        "password": "$2a$10$3To4u.vhEeiooMjJD7dMWuBkQue.I6j2poCc.La62G2Ut89.GuR0S",
+        "nickname": "amioa",
+        "description": "sfafaf",
+        "id": 6
+      },
+      "id": 10
+    },
+    {
+      "userId": 7,
+      "user": {
+        "email": "ciao@ciao.it",
+        "password": "$2a$10$xRgJNYswRhpnE8TysdN/6.YYFKkE4GBzrCic/xdcZVul91KnVgErm",
+        "nickname": "ciao",
+        "description": "khasdbfsdkhfhsdk",
+        "id": 1
+      },
+      "id": 11
+    },
+    {
+      "userId": 7,
+      "user": {
+        "email": "admin2@admin2",
+        "password": "$2a$10$k7dBhumQ5RwMCFrm6gBhsOXy0VVTkC8SSaj2OK2XMKRY5ABhSJMJ2",
+        "nickname": "admin2",
+        "description": "admin2",
+        "id": 5
+      },
+      "id": 12
+    }
   ]
 }
