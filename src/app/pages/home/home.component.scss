@@ -6,46 +6,36 @@
   max-width: 90%;
   background-color: rgba(120, 125, 173, 0.6);
   color: white;
-  position: relative;
 }
 
 .slogan-container h2 {
-  font-size: 2rem; /* Dimensione del titolo */
-  margin-bottom: 10px; /* Margine inferiore */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombra del testo */
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
 }
 
 .slogan-container p {
-  font-size: 1.2rem; /* Dimensione del paragrafo */
-  margin-bottom: 20px; /* Margine inferiore */
-  text-align: center; /* Allineamento del testo */
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .slogan-container button {
-  font-size: 1.1rem; /* Dimensione del bottone */
-  padding: 10px 20px; /* Spaziatura interna del bottone */
-  border-radius: 5px; /* Bordo arrotondato del bottone */
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  border-radius: 5px;
   background: linear-gradient(
     90deg,
     rgba(0, 240, 250, 1) 30%,
     rgba(251, 133, 243, 1) 100%
   );
-  border: none; /* Nessun bordo */
-  color: white; /* Colore del testo del bottone */
-  cursor: pointer; /* Cursore a mano */
-  transition: background-color 0.3s ease; /* Transizione per il colore di sfondo */
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.slogan-container button:hover {
-  background-color: rgba(
-    0,
-    123,
-    255,
-    1
-  ); /* Colore di sfondo del bottone al passaggio del mouse */
-}
-
-/* Effetto di apparizione */
 .slogan-container.ng-enter {
   opacity: 0;
   transform: translateY(-20px);
