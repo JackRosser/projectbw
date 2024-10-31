@@ -691,6 +691,86 @@
         "genere": "Roguelike"
       },
       "id": 4
+    },
+    {
+      "userId": 11,
+      "game": {
+        "id": 6,
+        "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202311/2801/803e41fee0edf8f8ed1de518e6eac60ddf30ac485b9a16a2.png?w=440&thumb=false",
+        "title": "Fortnite",
+        "genere": "Battle Royale"
+      },
+      "id": 5
+    },
+    {
+      "userId": 11,
+      "game": {
+        "id": 14,
+        "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202410/0800/d5bd637fe26cf3589f18a8bb1c4a9f8984b40eee8bc2ca97.png?w=440&thumb=false",
+        "title": "Overwatch",
+        "genere": "FPS"
+      },
+      "id": 6
+    },
+    {
+      "userId": 11,
+      "game": {
+        "id": 19,
+        "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202408/0817/4248a0d1a669210e5caf5174eda176c7883be2c9089fa106.png?w=440&thumb=false",
+        "title": "FIFA 21",
+        "genere": "Sports"
+      },
+      "id": 7
+    },
+    {
+      "userId": 11,
+      "game": {
+        "id": 25,
+        "title": "Cuphead",
+        "cover": "https://image.api.playstation.com/vulcan/img/cfn/11307fd0s0uyV-ba4dy5E9qskf6CIntl28sAerYTFbYC7vPUBrfgp7zokliHVbVoJ5ghylOBamo2Q2i5pbEYxQKFnSsiLHaY.png",
+        "genere": "Platform"
+      },
+      "id": 8
+    },
+    {
+      "userId": 20,
+      "game": {
+        "id": 11,
+        "cover": "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_5/SQ_NSwitch_AnimalCrossingNewHorizons_image500w.jpg",
+        "title": "Animal Crossing: New Horizons",
+        "genere": "Simulation"
+      },
+      "id": 9
+    },
+    {
+      "userId": 20,
+      "game": {
+        "id": 18,
+        "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202101/0812/FkzwjnJknkrFlozkTdeQBMub.png?w=440&thumb=false",
+        "title": "Resident Evil Village",
+        "genere": "Horror"
+      },
+      "id": 10
+    },
+    {
+      "userId": 20,
+      "game": {
+        "id": 17,
+        "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202211/3007/lgFVhRm5BfoX02pRUt3lSmLV.png?w=440&thumb=false",
+        "title": "Final Fantasy XV",
+        "genere": "RPG"
+      },
+      "id": 11
+    },
+    {
+      "userId": 20,
+      "game": {
+        "id": 26,
+        "title": "Dark Souls III",
+        "cover": "https://image.api.playstation.com/cdn/EP0700/CUSA03365_00/OFMeAw2KhrdaEZAjW1f3tCIXbogkLpTC.png",
+        "genere": "Action RPG"
+      },
+      "id": 12
     }
   ]
 }
