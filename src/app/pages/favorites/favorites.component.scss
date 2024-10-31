@@ -83,3 +83,29 @@
     transform-origin: 200px;
   }
 }
+
+@keyframes moving {
+  from {
+    transform: translateX(0) translateY(0);
+  }
+
+  33% {
+    transform: translateX(75%) translateY(100%);
+  }
+
+  66% {
+    transform: translateX(0) translateY(250%);
+  }
+
+  to {
+    transform: translateX(0) translateY(0);
+  }
+}
+
+.textmoving {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  animation: moving 8s infinite both;
+}
