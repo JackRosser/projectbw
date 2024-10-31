@@ -20,26 +20,32 @@
   display: flex !important;
   justify-content: center !important;
   padding: 1rem;
-  height: 500px
+  height: 500px;
 }
 
 .game:hover {
   transform: scale(1) perspective(75em) rotateY(18deg);
   box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, 1);
 }
-.card-body{
-  display: flex  !important;
+.card-body {
+  display: flex !important;
   justify-content: end !important;
   flex-direction: column;
-
-
 }
-.textDiv{
+.textDiv {
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  border:  1px solid white;
+  border: 1px solid white;
   backdrop-filter: grayscale(100) blur(10px);
   color: black;
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
+}
+
+.backblack {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.backblack:hover {
+  background-color: white;
 }
