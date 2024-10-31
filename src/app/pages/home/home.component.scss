@@ -6,6 +6,22 @@
   max-width: 90%;
   background-color: rgba(120, 125, 173, 0.6);
   color: white;
+  opacity: 1 !important;
+  animation: pulse 2s infinite both linear !important;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  to {
+    transform: scale(1);
+  }
 }
 
 .slogan-container h2 {
