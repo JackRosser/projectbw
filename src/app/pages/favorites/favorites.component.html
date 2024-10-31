@@ -1,12 +1,13 @@
-<section *ngIf="favorites.length > 0" class="favorites">
-  <div class="cont position-relative">
-    <p class="display-2 textmoving">Testo</p>
+<section *ngIf="favorites.length > 0" class="favorites position-relative">
+  <p class="nick">{{ nomePreferito }}</p>
+  <div class="cont">
     <div class="box">
       <div class="img">
         <div
           *ngFor="let user of favorites; let i = index"
           class="imgBx"
           [style.--i]="i + 1"
+          (mouseover)="changeNameOver(user.user.nickname)"
         >
           <img [src]="user.user.avatar" [alt]="user.user.nickname + ' img'" />
         </div>

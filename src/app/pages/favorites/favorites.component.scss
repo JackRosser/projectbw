@@ -109,3 +109,40 @@
   color: white;
   animation: moving 8s infinite both;
 }
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.nick {
+  color: white;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 2px solid white;
+  outline: 2px solid white;
+  outline-offset: 0.2rem;
+  padding-inline: 2.5rem;
+  padding-block: 4rem;
+  position: absolute;
+  top: 5rem;
+  left: 40%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  animation: pulse 5s infinite both linear;
+}
+
+@media screen and (min-width: 768px) {
+  .nick {
+    left: 10%;
+    top: 8rem;
+  }
+}

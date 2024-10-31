@@ -12,12 +12,24 @@ export class FavoritesComponent implements OnInit {
 
   constructor(private favoriteService: FavoriteService) {}
 
+nomePreferito!:string
+
+changeNameOver(nameHover:string):void {
+
+this.nomePreferito = nameHover
+
+}
+
+
   ngOnInit(): void {
     this.favoriteService.getFavoritesForCurrentUser().subscribe();
     this.favoriteService.favorites$.subscribe((favorites) => {
       this.favorites = favorites;
+      if (favorites.length > 0) {
+        this.nomePreferito = favorites[0].user.nickname
+      }
     });
-console.log(this.favorites);
+
 
 
   }
