@@ -589,6 +589,42 @@
         "avatar": "/images/avatar/18.webp"
       },
       "id": 20
+    },
+    {
+      "userId": 8,
+      "user": {
+        "email": "alex@gmail.com",
+        "password": "$2a$10$t2KbqZdbfcORmCtIyfBbxeI5Wbv.lZrtMXfIzOxlK0UKTcbW2hdpG",
+        "nickname": "Malandrino",
+        "description": "Alex, 27 anni - Appassionato di giochi di ruolo online e streamer part-time. Adora esplorare mondi virtuali complessi e cerca qualcuno con cui condividere raid notturni.",
+        "id": 1,
+        "avatar": "/images/avatar/1.webp"
+      },
+      "id": 21
+    },
+    {
+      "userId": 8,
+      "user": {
+        "email": "Marco01@yahoo.com",
+        "password": "$2a$10$3wx8cSeuYTGwvEcTNozyI.hCDvEhU1cllhrwVPHA1.5R6Lo6KRFVm",
+        "nickname": "Marcolinho",
+        "description": "Marco, 31 anni - Competitivo, amante degli FPS e degli sport virtuali. Sta cercando una compagna che condivida il suo entusiasmo per i tornei e gli e-sports.",
+        "id": 3,
+        "avatar": "/images/avatar/3.webp"
+      },
+      "id": 22
+    },
+    {
+      "userId": 8,
+      "user": {
+        "email": "luca@gmail.com",
+        "password": "$2a$10$/m.QhfJ96Elv9QfcPoKZ1.dP7l.wW2Vfkh/ukbQUXya2LSDsVG.r6",
+        "nickname": "LuchinoAK47",
+        "description": "Luca, 24 anni - Giocatore di MOBA e strategia in tempo reale. Adora le sfide e cerca una compagna con cui pianificare strategie e scalare le classifiche.\n",
+        "id": 5,
+        "avatar": "/images/avatar/5.webp"
+      },
+      "id": 23
     }
   ],
   "favorite-games": [

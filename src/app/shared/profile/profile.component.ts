@@ -21,16 +21,12 @@ export class ProfileComponent implements OnInit {
   constructor(private authSvc: AuthService,  private favGameSvc: PrefgameService,) {}
 
   ngOnChanges(changes: SimpleChanges) {
-    if (
-      changes['profileOn'] &&
-      changes['profileOn'].currentValue !== undefined
-    ) {
+    if (changes['profileOn'] && changes['profileOn'].currentValue !== undefined) {
       if (this.profileOn === true) {
-        this.appear = 'transform: translateX(0); transition: transform 300ms; ';
+        this.appear = 'transform: translateX(0); transition: transform 300ms; display: block;';
         this.profileOn = false;
       } else {
-        this.appear =
-          'transform: translateX(100%); transition: transform 300ms;';
+        this.appear = 'transform: translateX(100%); transition: transform 300ms; display: none;';
         this.profileOn = true;
       }
     }
@@ -66,21 +62,19 @@ export class ProfileComponent implements OnInit {
 
   @Input() profileOn!: boolean;
   appear: string =
-    'transform: translateX(100vw); transition: transform; transition-duration: 300ms;';
+    'transform: translateX(100vw); transition: transform; transition-duration: 300ms; display: none';
 
 
-close():void {
-  if (this.profileOn === true) {
-    this.appear = 'transform: translateX(0); transition: transform 300ms; ';
-    this.profileOn = false;
-  } else {
-    this.appear =
-      'transform: translateX(100%); transition: transform 300ms;';
-    this.profileOn = true;
-  }
-  console.log("FUNZIONE CLOSE", this.profileOn);
-
-}
+    close(): void {
+      if (this.profileOn === true) {
+        this.appear = 'transform: translateX(0); transition: transform 300ms; display: block;';
+        this.profileOn = false;
+      } else {
+        this.appear = 'transform: translateX(100%); transition: transform 300ms; display: none;';
+        this.profileOn = true;
+      }
+      console.log("FUNZIONE CLOSE", this.profileOn);
+    }
 
   loadPrefGames() {
     const userId = this.authSvc.getUserId();
