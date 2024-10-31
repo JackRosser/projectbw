@@ -1,30 +1,13 @@
-<section class="favorites">
+<section *ngIf="favorites.length > 0" class="favorites">
   <div class="cont">
     <div class="box">
       <div class="img">
-        <div class="imgBx" style="--i: 1">
-          <img src="/images/avatartest.webp" alt="img" />
-        </div>
-        <div class="imgBx" style="--i: 2">
-          <img src="/images/avatartest.webp" alt="img" />
-        </div>
-        <div class="imgBx" style="--i: 3">
-          <img src="/images/avatartest.webp" alt="img" />
-        </div>
-        <div class="imgBx" style="--i: 4">
-          <img src="/images/avatartest.webp" alt="img" />
-        </div>
-        <div class="imgBx" style="--i: 5">
-          <img src="/images/avatartest.webp" alt="img" />
-        </div>
-        <div class="imgBx" style="--i: 6">
-          <img src="/images/avatartest.webp" alt="img" />
-        </div>
-        <div class="imgBx" style="--i: 7">
-          <img src="/images/avatartest.webp" alt="img" />
-        </div>
-        <div class="imgBx" style="--i: 8">
-          <img src="/images/avatartest.webp" alt="img" />
+        <div
+          *ngFor="let user of favorites; let i = index"
+          class="imgBx"
+          [style.--i]="i + 1"
+        >
+          <img [src]="user.user.avatar" [alt]="user.user.nickname + ' img'" />
         </div>
       </div>
     </div>

@@ -469,6 +469,126 @@
         "avatar": "/images/avatar/7.webp"
       },
       "id": 10
+    },
+    {
+      "userId": 4,
+      "user": {
+        "email": "francesco@gmail.com",
+        "password": "$2a$10$8xGGXxG1LcM4qXwPCJDWf.eNnvheYDizTBb9eXOlRwI7UNKOK5bEy",
+        "nickname": "HotJoystick",
+        "description": "Francesco, 26 anni - Collezionista di carte e amante dei giochi di strategia a turni. Sogna qualcuno che capisca il valore delle carte rare.",
+        "id": 10,
+        "avatar": "/images/avatar/10.webp"
+      },
+      "id": 11
+    },
+    {
+      "userId": 4,
+      "user": {
+        "email": "elena@gmail.com",
+        "password": "$2a$10$KDacEhUv3JZMilsbo7uEI.kAya./XJ6kuWc4i6GgEuDYWGJILWxBa",
+        "nickname": "FragPrince(ss)",
+        "description": "Elena, 26 anni - Creatrice di contenuti e amante dei giochi di avventura. Cerca qualcuno che possa ispirarla con nuove idee per il suo canale.",
+        "id": 13,
+        "avatar": "/images/avatar/13.webp"
+      },
+      "id": 12
+    },
+    {
+      "userId": 4,
+      "user": {
+        "email": "federica@gmail.com",
+        "password": "$2a$10$rSzFkVe9nj7scsQGRefc1Ol3yQunv2xi.6KH0Hc7FlUX8codTqM/a",
+        "nickname": "KissAndKill",
+        "description": "Federica, 28 anni - Appassionata di fantasy e giochi di carte digitali. Ama immergersi in universi ricchi di storia e cerca un compagno di avventure.",
+        "id": 15,
+        "avatar": "/images/avatar/15.webp"
+      },
+      "id": 13
+    },
+    {
+      "userId": 4,
+      "user": {
+        "email": "michele@gmail.com",
+        "password": "$2a$10$jMIozaLrVEfTpQDODxfj0eh5GomSLN/3czI5Hrj64IcpSRxuzt6AS",
+        "nickname": "CapitanMike",
+        "description": "Se il mare aperto è anche il tuo richiamo e vuoi unirti a una vita di battaglie epiche e passioni ardenti, sali a bordo e vediamo insieme dove soffia il vento della sorte. Pronta a condividere un sorso di rum e qualche risata salata? Alza la vela e inviami un messaggio, tesoro. Ma attenzione: con un pirata come me, l'avventura non è mai lontana… e nemmeno i brividi d'emozione! ☠️⚓",
+        "id": 17,
+        "avatar": "/images/avatar/17.webp"
+      },
+      "id": 14
+    },
+    {
+      "userId": 4,
+      "user": {
+        "email": "riccardo@gmail.com",
+        "password": "$2a$10$fErAZ/f/oa6ftz.5W1fD1uLfBYuAvdLsRou7DNZVuzgVSKZ.bPOx.",
+        "nickname": "RespawnRomeo",
+        "description": "Riccardo, 29 anni - Nostalgico del retrogaming, adora le vecchie console. Vorrebbe incontrare qualcuno che apprezzi le glorie passate.",
+        "id": 12,
+        "avatar": "/images/avatar/12.webp"
+      },
+      "id": 15
+    },
+    {
+      "userId": 4,
+      "user": {
+        "email": "gabriele@gmail.com",
+        "password": "$2a$10$48t6rhom5A9qTHHbSWSPAe3Wz51gdAwrbei6E9SJMb7jf6uQGi3ZO",
+        "nickname": "PixelKiller",
+        "description": "Gabriele, 22 anni - Giocatore di MMO e amante delle gilde. Cerca qualcuno con cui combattere fianco a fianco e vivere epiche avventure online.\n",
+        "id": 16,
+        "avatar": "/images/avatar/16.webp"
+      },
+      "id": 16
+    },
+    {
+      "userId": 4,
+      "user": {
+        "email": "chiara@gmail.com",
+        "password": "$2a$10$ZVgFxZW11DQM5WAtuZmCd.vXt9d/syY42bIL4n8wx/M3g3Qgov5rm",
+        "nickname": "VictoryVixen",
+        "description": "Chiara, 26 anni - Cosplayer e appassionata di action RPG. Vorrebbe conoscere qualcuno che apprezzi il lato creativo del gaming.",
+        "id": 19,
+        "avatar": "/images/avatar/19.webp"
+      },
+      "id": 17
+    },
+    {
+      "userId": 4,
+      "user": {
+        "email": "matteo@gmail.com",
+        "password": "$2a$10$DhAnhmZgZcBhWNXMSoef2u9befYg9vVN2fa51uWqp6Od5MxxbnWBO",
+        "nickname": "GigaHeartbreaker",
+        "description": "Matteo, 30 anni - Hacker amatoriale nei giochi di simulazione e realtà virtuale. Cerca una partner che sia affascinata dalle nuove tecnologie.",
+        "id": 14,
+        "avatar": "/images/avatar/14.webp"
+      },
+      "id": 18
+    },
+    {
+      "userId": 4,
+      "user": {
+        "email": "andrea@gmail.com",
+        "password": "$2a$10$LjO3MHMM4BvW318OsQIs3eneGSOFl87j.9BaunykFqw1CTnv0N06e",
+        "nickname": "PlayerPleasure",
+        "description": "Andrea, 27 anni - Competitivo nel mondo degli sport elettronici e appassionato di giochi di squadra. Spera di trovare una compagna per tornei di coppia.",
+        "id": 20,
+        "avatar": "/images/avatar/20.webp"
+      },
+      "id": 19
+    },
+    {
+      "userId": 4,
+      "user": {
+        "email": "simone@gmail.com",
+        "password": "$2a$10$6pcAnf6MIBBSyB7Pt5BEH.F/GzuTisrUyWzrhDiOaKwpGUhVPD9bC",
+        "nickname": "BitOfLove",
+        "description": "Simone, 24 anni - Esperto di giochi di simulazione e guida. Cerca qualcuno che ami rilassarsi esplorando mondi aperti.",
+        "id": 18,
+        "avatar": "/images/avatar/18.webp"
+      },
+      "id": 20
     }
   ],
   "favorite-games": [

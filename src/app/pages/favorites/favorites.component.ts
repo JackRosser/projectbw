@@ -17,5 +17,8 @@ export class FavoritesComponent implements OnInit {
     this.favoriteService.favorites$.subscribe((favorites) => {
       this.favorites = favorites;
     });
+console.log(this.favorites);
+
+
   }
 }
