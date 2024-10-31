@@ -24,7 +24,6 @@
       "id": 3,
       "avatar": "/images/avatar/17.webp"
     },
-
     {
       "email": "sonia@gmail.com",
       "password": "$2a$10$xc3jk5aYzu7wkipduDGZYerf5A.J5Mg18Nz8kLopUJoFWF9qxjpaC",
@@ -137,7 +136,6 @@
       "id": 17,
       "avatar": "/images/avatar/3.webp"
     },
-
     {
       "email": "simone@gmail.com",
       "password": "$2a$10$6pcAnf6MIBBSyB7Pt5BEH.F/GzuTisrUyWzrhDiOaKwpGUhVPD9bC",
@@ -736,46 +734,6 @@
       "id": 14
     },
     {
-      "userId": 3,
-      "game": {
-        "id": 23,
-        "title": "Stardew Valley",
-        "cover": "https://gaming-cdn.com/images/products/1767/orig/stardew-valley-pc-mac-gioco-steam-cover.jpg?v=1704800467",
-        "genere": "Simulation"
-      },
-      "id": 15
-    },
-    {
-      "userId": 3,
-      "game": {
-        "id": 26,
-        "title": "Dark Souls III",
-        "cover": "https://image.api.playstation.com/cdn/EP0700/CUSA03365_00/OFMeAw2KhrdaEZAjW1f3tCIXbogkLpTC.png",
-        "genere": "Action RPG"
-      },
-      "id": 16
-    },
-    {
-      "userId": 3,
-      "game": {
-        "id": 35,
-        "title": "Bloodborne",
-        "cover": "https://image.api.playstation.com/vulcan/img/rnd/202010/2614/Sy5e8DmeKIJVjlAGraPAJYkT.png",
-        "genere": "Action RPG"
-      },
-      "id": 17
-    },
-    {
-      "userId": 3,
-      "game": {
-        "id": 30,
-        "title": "The Sims 4",
-        "cover": "https://cdn1.epicgames.com/offer/2a14cf8a83b149919a2399504e5686a6/EGS_TheSims4_ElectronicArts_S2_1200x1600-ceadc3bd1e6f885ad64d9f115f51f5c0",
-        "genere": "Simulation"
-      },
-      "id": 18
-    },
-    {
       "userId": 4,
       "game": {
         "id": 26,
@@ -1054,6 +1012,26 @@
         "genere": "Sports"
       },
       "id": 46
+    },
+    {
+      "userId": 3,
+      "game": {
+        "id": 50,
+        "cover": "https://images.everyeye.it/img-cover/sea-of-thieves-v12-31078.jpg",
+        "title": "Sea of Thieves",
+        "genere": "Azione/Avventura"
+      },
+      "id": 47
+    },
+    {
+      "userId": 3,
+      "game": {
+        "id": 6,
+        "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202311/2801/803e41fee0edf8f8ed1de518e6eac60ddf30ac485b9a16a2.png?w=440&thumb=false",
+        "title": "Fortnite",
+        "genere": "Battle Royale"
+      },
+      "id": 48
     }
   ]
 }
