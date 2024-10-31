@@ -649,6 +649,18 @@
         "avatar": "/images/avatar/3.webp"
       },
       "id": 25
+    },
+    {
+      "userId": 11,
+      "user": {
+        "email": "Giulia01@hotmail.com",
+        "password": "$2a$10$rMCCrxnVPEazrk.OWqUq1.LqnepUcWsC50sucDlZslTxVn119lfG.",
+        "nickname": "Fragolina",
+        "description": "Giulia, 23 anni - Fanatica di giochi di puzzle e avventure narrative. Ha una collezione di giochi retro e cerca qualcuno che apprezzi le serate tranquille davanti alla console.",
+        "id": 2,
+        "avatar": "/images/avatar/2.webp"
+      },
+      "id": 26
     }
   ],
   "favorite-games": [
@@ -760,7 +772,6 @@
         "title": "Final Fantasy XV",
         "genere": "RPG"
       },
-
       "id": 11
     },
     {
@@ -809,7 +820,6 @@
     },
     {
       "userId": 12,
-
       "game": {
         "id": 3,
         "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202211/0711/kh4MUIuMmHlktOHar3lVl6rY.png?w=440&thumb=false",
@@ -1058,7 +1068,6 @@
         "cover": "https://image.api.playstation.com/vulcan/img/rnd/202010/2614/Sy5e8DmeKIJVjlAGraPAJYkT.png",
         "genere": "Action RPG"
       },
-
       "id": 17
     },
     {
@@ -1230,6 +1239,126 @@
         "genere": "Sandbox"
       },
       "id": 34
+    },
+    {
+      "userId": 19,
+      "game": {
+        "id": 4,
+        "cover": "https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.png?w=440&thumb=false",
+        "title": "Red Dead Redemption 2",
+        "genere": "Action-Adventure"
+      },
+      "id": 35
+    },
+    {
+      "userId": 19,
+      "game": {
+        "id": 5,
+        "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202407/0401/670c294ded3baf4fa11068db2ec6758c63f7daeb266a35a1.png?w=440&thumb=false",
+        "title": "Minecraft",
+        "genere": "Sandbox"
+      },
+      "id": 36
+    },
+    {
+      "userId": 19,
+      "game": {
+        "id": 6,
+        "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202311/2801/803e41fee0edf8f8ed1de518e6eac60ddf30ac485b9a16a2.png?w=440&thumb=false",
+        "title": "Fortnite",
+        "genere": "Battle Royale"
+      },
+      "id": 37
+    },
+    {
+      "userId": 19,
+      "game": {
+        "id": 8,
+        "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202104/0517/9AcM3vy5t77zPiJyKHwRfnNT.png?w=440&thumb=false",
+        "title": "Hades",
+        "genere": "Roguelike"
+      },
+      "id": 38
+    },
+    {
+      "userId": 17,
+      "game": {
+        "id": 13,
+        "cover": "https://image.api.playstation.com/vulcan/img/rnd/202107/0115/D5IIJwm65MLMPENwWzzO7rjd.png?w=440&thumb=false",
+        "title": "Among Us",
+        "genere": "Party"
+      },
+      "id": 39
+    },
+    {
+      "userId": 17,
+      "game": {
+        "id": 11,
+        "cover": "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_5/SQ_NSwitch_AnimalCrossingNewHorizons_image500w.jpg",
+        "title": "Animal Crossing: New Horizons",
+        "genere": "Simulation"
+      },
+      "id": 40
+    },
+    {
+      "userId": 17,
+      "game": {
+        "id": 4,
+        "cover": "https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.png?w=440&thumb=false",
+        "title": "Red Dead Redemption 2",
+        "genere": "Action-Adventure"
+      },
+      "id": 41
+    },
+    {
+      "userId": 17,
+      "game": {
+        "id": 8,
+        "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202104/0517/9AcM3vy5t77zPiJyKHwRfnNT.png?w=440&thumb=false",
+        "title": "Hades",
+        "genere": "Roguelike"
+      },
+      "id": 42
+    },
+    {
+      "userId": 18,
+      "game": {
+        "id": 11,
+        "cover": "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_5/SQ_NSwitch_AnimalCrossingNewHorizons_image500w.jpg",
+        "title": "Animal Crossing: New Horizons",
+        "genere": "Simulation"
+      },
+      "id": 43
+    },
+    {
+      "userId": 18,
+      "game": {
+        "id": 10,
+        "cover": "https://image.api.playstation.com/vulcan/img/rnd/202011/1021/X3WIAh63yKhRRiMohLoJMeQu.png?w=440&thumb=false",
+        "title": "God of War",
+        "genere": "Action"
+      },
+      "id": 44
+    },
+    {
+      "userId": 18,
+      "game": {
+        "id": 18,
+        "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202101/0812/FkzwjnJknkrFlozkTdeQBMub.png?w=440&thumb=false",
+        "title": "Resident Evil Village",
+        "genere": "Horror"
+      },
+      "id": 45
+    },
+    {
+      "userId": 18,
+      "game": {
+        "id": 19,
+        "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202408/0817/4248a0d1a669210e5caf5174eda176c7883be2c9089fa106.png?w=440&thumb=false",
+        "title": "FIFA 21",
+        "genere": "Sports"
+      },
+      "id": 46
     }
   ]
 }
