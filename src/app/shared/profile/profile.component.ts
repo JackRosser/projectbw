@@ -68,6 +68,20 @@ export class ProfileComponent implements OnInit {
   appear: string =
     'transform: translateX(100vw); transition: transform; transition-duration: 300ms;';
 
+
+close():void {
+  if (this.profileOn === true) {
+    this.appear = 'transform: translateX(0); transition: transform 300ms; ';
+    this.profileOn = false;
+  } else {
+    this.appear =
+      'transform: translateX(100%); transition: transform 300ms;';
+    this.profileOn = true;
+  }
+  console.log("FUNZIONE CLOSE", this.profileOn);
+
+}
+
   loadPrefGames() {
     const userId = this.authSvc.getUserId();
     if (userId === null) {

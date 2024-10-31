@@ -98,3 +98,16 @@ li {
   bottom: -0.5rem;
   right: -0.5rem;
 }
+
+.close {
+  position: absolute;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  top: 1rem;
+  left: 1rem;
+}
+
+.close:hover {
+  color: red;
+}
