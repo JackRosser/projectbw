@@ -691,6 +691,26 @@
         "genere": "Roguelike"
       },
       "id": 4
+    },
+    {
+      "userId": 15,
+      "game": {
+        "id": 3,
+        "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202211/0711/kh4MUIuMmHlktOHar3lVl6rY.png?w=440&thumb=false",
+        "title": "The Witcher 3: Wild Hunt",
+        "genere": "RPG"
+      },
+      "id": 5
+    },
+    {
+      "userId": 15,
+      "game": {
+        "id": 4,
+        "cover": "https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.png?w=440&thumb=false",
+        "title": "Red Dead Redemption 2",
+        "genere": "Action-Adventure"
+      },
+      "id": 6
     }
   ]
 }
