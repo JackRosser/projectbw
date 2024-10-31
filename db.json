@@ -711,6 +711,286 @@
         "genere": "Action-Adventure"
       },
       "id": 6
+    },
+    {
+      "userId": 1,
+      "game": {
+        "id": 26,
+        "title": "Dark Souls III",
+        "cover": "https://image.api.playstation.com/cdn/EP0700/CUSA03365_00/OFMeAw2KhrdaEZAjW1f3tCIXbogkLpTC.png",
+        "genere": "Action RPG"
+      },
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "game": {
+        "id": 27,
+        "title": "Persona 5",
+        "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/capsule_616x353.jpg?t=1722428154",
+        "genere": "RPG"
+      },
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "game": {
+        "id": 23,
+        "title": "Stardew Valley",
+        "cover": "https://gaming-cdn.com/images/products/1767/orig/stardew-valley-pc-mac-gioco-steam-cover.jpg?v=1704800467",
+        "genere": "Simulation"
+      },
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "game": {
+        "id": 49,
+        "title": "Death Stranding",
+        "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202106/2214/a8zjXIdTwKslJ2HvoJvY34a1.jpg",
+        "genere": "Action"
+      },
+      "id": 10
+    },
+    {
+      "userId": 2,
+      "game": {
+        "id": 9,
+        "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202008/0416/6Bo40lnWU0BhgrOUm7Cb6by3.png?w=440&thumb=false",
+        "title": "Cyberpunk 2077",
+        "genere": "RPG"
+      },
+      "id": 11
+    },
+    {
+      "userId": 2,
+      "game": {
+        "id": 21,
+        "title": "Celeste",
+        "cover": "https://gaming-cdn.com/images/products/8003/orig/celeste-pc-mac-gioco-steam-cover.jpg?v=1705489821",
+        "genere": "Platform"
+      },
+      "id": 12
+    },
+    {
+      "userId": 2,
+      "game": {
+        "id": 27,
+        "title": "Persona 5",
+        "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/capsule_616x353.jpg?t=1722428154",
+        "genere": "RPG"
+      },
+      "id": 13
+    },
+    {
+      "userId": 2,
+      "game": {
+        "id": 25,
+        "title": "Cuphead",
+        "cover": "https://image.api.playstation.com/vulcan/img/cfn/11307fd0s0uyV-ba4dy5E9qskf6CIntl28sAerYTFbYC7vPUBrfgp7zokliHVbVoJ5ghylOBamo2Q2i5pbEYxQKFnSsiLHaY.png",
+        "genere": "Platform"
+      },
+      "id": 14
+    },
+    {
+      "userId": 3,
+      "game": {
+        "id": 23,
+        "title": "Stardew Valley",
+        "cover": "https://gaming-cdn.com/images/products/1767/orig/stardew-valley-pc-mac-gioco-steam-cover.jpg?v=1704800467",
+        "genere": "Simulation"
+      },
+      "id": 15
+    },
+    {
+      "userId": 3,
+      "game": {
+        "id": 26,
+        "title": "Dark Souls III",
+        "cover": "https://image.api.playstation.com/cdn/EP0700/CUSA03365_00/OFMeAw2KhrdaEZAjW1f3tCIXbogkLpTC.png",
+        "genere": "Action RPG"
+      },
+      "id": 16
+    },
+    {
+      "userId": 3,
+      "game": {
+        "id": 35,
+        "title": "Bloodborne",
+        "cover": "https://image.api.playstation.com/vulcan/img/rnd/202010/2614/Sy5e8DmeKIJVjlAGraPAJYkT.png",
+        "genere": "Action RPG"
+      },
+      "id": 17
+    },
+    {
+      "userId": 3,
+      "game": {
+        "id": 30,
+        "title": "The Sims 4",
+        "cover": "https://cdn1.epicgames.com/offer/2a14cf8a83b149919a2399504e5686a6/EGS_TheSims4_ElectronicArts_S2_1200x1600-ceadc3bd1e6f885ad64d9f115f51f5c0",
+        "genere": "Simulation"
+      },
+      "id": 18
+    },
+    {
+      "userId": 4,
+      "game": {
+        "id": 26,
+        "title": "Dark Souls III",
+        "cover": "https://image.api.playstation.com/cdn/EP0700/CUSA03365_00/OFMeAw2KhrdaEZAjW1f3tCIXbogkLpTC.png",
+        "genere": "Action RPG"
+      },
+      "id": 19
+    },
+    {
+      "userId": 4,
+      "game": {
+        "id": 36,
+        "title": "Sekiro: Shadows Die Twice",
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/814380/header.jpg?t=1678991267",
+        "genere": "Action-Adventure"
+      },
+      "id": 20
+    },
+    {
+      "userId": 4,
+      "game": {
+        "id": 38,
+        "title": "Horizon Zero Dawn",
+        "cover": "https://cdn1.epicgames.com/offer/f4bfcee7af9b46f182ac93bd01494595/EGS_HorizonZeroDawnRemastered_GuerrillaGames_S2_1200x1600-541e79c6bba05a77fd7995d815f80374",
+        "genere": "Action-Adventure"
+      },
+      "id": 21
+    },
+    {
+      "userId": 4,
+      "game": {
+        "id": 35,
+        "title": "Bloodborne",
+        "cover": "https://image.api.playstation.com/vulcan/img/rnd/202010/2614/Sy5e8DmeKIJVjlAGraPAJYkT.png",
+        "genere": "Action RPG"
+      },
+      "id": 22
+    },
+    {
+      "userId": 5,
+      "game": {
+        "id": 13,
+        "cover": "https://image.api.playstation.com/vulcan/img/rnd/202107/0115/D5IIJwm65MLMPENwWzzO7rjd.png?w=440&thumb=false",
+        "title": "Among Us",
+        "genere": "Party"
+      },
+      "id": 23
+    },
+    {
+      "userId": 5,
+      "game": {
+        "id": 12,
+        "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202010/0114/ERNPc4gFqeRDG1tYQIfOKQtM.png?w=440&thumb=false",
+        "title": "DOOM Eternal",
+        "genere": "FPS"
+      },
+      "id": 24
+    },
+    {
+      "userId": 5,
+      "game": {
+        "id": 11,
+        "cover": "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_5/SQ_NSwitch_AnimalCrossingNewHorizons_image500w.jpg",
+        "title": "Animal Crossing: New Horizons",
+        "genere": "Simulation"
+      },
+      "id": 25
+    },
+    {
+      "userId": 5,
+      "game": {
+        "id": 10,
+        "cover": "https://image.api.playstation.com/vulcan/img/rnd/202011/1021/X3WIAh63yKhRRiMohLoJMeQu.png?w=440&thumb=false",
+        "title": "God of War",
+        "genere": "Action"
+      },
+      "id": 26
+    },
+    {
+      "userId": 6,
+      "game": {
+        "id": 15,
+        "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202408/2010/6e7d87fef87405e9925e810a1620df04c3b98c2086711336.png?w=440&thumb=false",
+        "title": "Genshin Impact",
+        "genere": "RPG"
+      },
+      "id": 27
+    },
+    {
+      "userId": 6,
+      "game": {
+        "id": 14,
+        "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202410/0800/d5bd637fe26cf3589f18a8bb1c4a9f8984b40eee8bc2ca97.png?w=440&thumb=false",
+        "title": "Overwatch",
+        "genere": "FPS"
+      },
+      "id": 28
+    },
+    {
+      "userId": 6,
+      "game": {
+        "id": 20,
+        "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202312/0123/978efa66c9645e4692ac7036a31aa002a49d0efb4b88b45c.png?w=440&thumb=false",
+        "title": "Call of Duty: Warzone",
+        "genere": "Battle Royale"
+      },
+      "id": 29
+    },
+    {
+      "userId": 6,
+      "game": {
+        "id": 19,
+        "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202408/0817/4248a0d1a669210e5caf5174eda176c7883be2c9089fa106.png?w=440&thumb=false",
+        "title": "FIFA 21",
+        "genere": "Sports"
+      },
+      "id": 30
+    },
+    {
+      "userId": 8,
+      "game": {
+        "id": 8,
+        "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202104/0517/9AcM3vy5t77zPiJyKHwRfnNT.png?w=440&thumb=false",
+        "title": "Hades",
+        "genere": "Roguelike"
+      },
+      "id": 31
+    },
+    {
+      "userId": 8,
+      "game": {
+        "id": 3,
+        "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202211/0711/kh4MUIuMmHlktOHar3lVl6rY.png?w=440&thumb=false",
+        "title": "The Witcher 3: Wild Hunt",
+        "genere": "RPG"
+      },
+      "id": 32
+    },
+    {
+      "userId": 8,
+      "game": {
+        "id": 4,
+        "cover": "https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.png?w=440&thumb=false",
+        "title": "Red Dead Redemption 2",
+        "genere": "Action-Adventure"
+      },
+      "id": 33
+    },
+    {
+      "userId": 8,
+      "game": {
+        "id": 5,
+        "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202407/0401/670c294ded3baf4fa11068db2ec6758c63f7daeb266a35a1.png?w=440&thumb=false",
+        "title": "Minecraft",
+        "genere": "Sandbox"
+      },
+      "id": 34
     }
   ]
 }
