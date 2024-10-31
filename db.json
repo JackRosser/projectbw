@@ -17,13 +17,14 @@
       "avatar": "/images/avatar/2.webp"
     },
     {
-      "email": "Marco01@yahoo.com",
-      "password": "$2a$10$3wx8cSeuYTGwvEcTNozyI.hCDvEhU1cllhrwVPHA1.5R6Lo6KRFVm",
-      "nickname": "Marcolinho",
-      "description": "Marco, 31 anni - Competitivo, amante degli FPS e degli sport virtuali. Sta cercando una compagna che condivida il suo entusiasmo per i tornei e gli e-sports.",
+      "email": "michele@gmail.com",
+      "password": "$2a$10$jMIozaLrVEfTpQDODxfj0eh5GomSLN/3czI5Hrj64IcpSRxuzt6AS",
+      "nickname": "CapitanMike",
+      "description": "Se il mare aperto è anche il tuo richiamo e vuoi unirti a una vita di battaglie epiche e passioni ardenti, sali a bordo e vediamo insieme dove soffia il vento della sorte. Pronta a condividere un sorso di rum e qualche risata salata? Alza la vela e inviami un messaggio, tesoro. Ma attenzione: con un pirata come me, l'avventura non è mai lontana… e nemmeno i brividi d'emozione! ☠️⚓",
       "id": 3,
-      "avatar": "/images/avatar/3.webp"
+      "avatar": "/images/avatar/17.webp"
     },
+
     {
       "email": "sonia@gmail.com",
       "password": "$2a$10$xc3jk5aYzu7wkipduDGZYerf5A.J5Mg18Nz8kLopUJoFWF9qxjpaC",
@@ -129,13 +130,14 @@
       "avatar": "/images/avatar/16.webp"
     },
     {
-      "email": "michele@gmail.com",
-      "password": "$2a$10$jMIozaLrVEfTpQDODxfj0eh5GomSLN/3czI5Hrj64IcpSRxuzt6AS",
-      "nickname": "CapitanMike",
-      "description": "Se il mare aperto è anche il tuo richiamo e vuoi unirti a una vita di battaglie epiche e passioni ardenti, sali a bordo e vediamo insieme dove soffia il vento della sorte. Pronta a condividere un sorso di rum e qualche risata salata? Alza la vela e inviami un messaggio, tesoro. Ma attenzione: con un pirata come me, l'avventura non è mai lontana… e nemmeno i brividi d'emozione! ☠️⚓",
+      "email": "Marco01@yahoo.com",
+      "password": "$2a$10$3wx8cSeuYTGwvEcTNozyI.hCDvEhU1cllhrwVPHA1.5R6Lo6KRFVm",
+      "nickname": "Marcolinho",
+      "description": "Marco, 31 anni - Competitivo, amante degli FPS e degli sport virtuali. Sta cercando una compagna che condivida il suo entusiasmo per i tornei e gli e-sports.",
       "id": 17,
-      "avatar": "/images/avatar/17.webp"
+      "avatar": "/images/avatar/3.webp"
     },
+
     {
       "email": "simone@gmail.com",
       "password": "$2a$10$6pcAnf6MIBBSyB7Pt5BEH.F/GzuTisrUyWzrhDiOaKwpGUhVPD9bC",
@@ -347,322 +349,15 @@
       "title": "Death Stranding",
       "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202106/2214/a8zjXIdTwKslJ2HvoJvY34a1.jpg",
       "genere": "Action"
+    },
+    {
+      "id": 50,
+      "cover": "https://images.everyeye.it/img-cover/sea-of-thieves-v12-31078.jpg",
+      "title": "Sea of Thieves",
+      "genere": "Azione/Avventura"
     }
   ],
-  "favorite": [
-    {
-      "userId": 7,
-      "user": {
-        "email": "alex@gmail.com",
-        "password": "$2a$10$t2KbqZdbfcORmCtIyfBbxeI5Wbv.lZrtMXfIzOxlK0UKTcbW2hdpG",
-        "nickname": "Malandrino",
-        "description": "Alex, 27 anni - Appassionato di giochi di ruolo online e streamer part-time. Adora esplorare mondi virtuali complessi e cerca qualcuno con cui condividere raid notturni.",
-        "id": 1,
-        "avatar": ""
-      },
-      "id": 1
-    },
-    {
-      "userId": 4,
-      "user": {
-        "email": "alex@gmail.com",
-        "password": "$2a$10$t2KbqZdbfcORmCtIyfBbxeI5Wbv.lZrtMXfIzOxlK0UKTcbW2hdpG",
-        "nickname": "Malandrino",
-        "description": "Alex, 27 anni - Appassionato di giochi di ruolo online e streamer part-time. Adora esplorare mondi virtuali complessi e cerca qualcuno con cui condividere raid notturni.",
-        "id": 1,
-        "avatar": "/images/avatar/1.webp"
-      },
-      "id": 2
-    },
-    {
-      "userId": 4,
-      "user": {
-        "email": "Marco01@yahoo.com",
-        "password": "$2a$10$3wx8cSeuYTGwvEcTNozyI.hCDvEhU1cllhrwVPHA1.5R6Lo6KRFVm",
-        "nickname": "Marcolinho",
-        "description": "Marco, 31 anni - Competitivo, amante degli FPS e degli sport virtuali. Sta cercando una compagna che condivida il suo entusiasmo per i tornei e gli e-sports.",
-        "id": 3,
-        "avatar": "/images/avatar/3.webp"
-      },
-      "id": 3
-    },
-    {
-      "userId": 4,
-      "user": {
-        "email": "Giulia01@hotmail.com",
-        "password": "$2a$10$rMCCrxnVPEazrk.OWqUq1.LqnepUcWsC50sucDlZslTxVn119lfG.",
-        "nickname": "Fragolina",
-        "description": "Giulia, 23 anni - Fanatica di giochi di puzzle e avventure narrative. Ha una collezione di giochi retro e cerca qualcuno che apprezzi le serate tranquille davanti alla console.",
-        "id": 2,
-        "avatar": "/images/avatar/2.webp"
-      },
-      "id": 4
-    },
-    {
-      "userId": 4,
-      "user": {
-        "email": "alessia@gmail.com",
-        "password": "$2a$10$Q/eE7Lie4QOd.O5RBO/d8OcitOkxd5LV4rdzK2MLuqc3YO71hSDpG",
-        "nickname": "Alexa",
-        "description": "Alessia, 25 anni - Esperta di RPG e fantasy. Sogna di trovare qualcuno che, come lei, preferisca mondi incantati e storie ricche di dettagli.\nDavide, 29 anni - Costruttore seriale di mondi in sandbox e appassionato di simulazioni. Ama chi condivide la passione per l'immaginazione e la costruzione.",
-        "id": 6,
-        "avatar": "/images/avatar/6.webp"
-      },
-      "id": 5
-    },
-    {
-      "userId": 4,
-      "user": {
-        "email": "roberto@gmail.com",
-        "password": "$2a$10$AkvnCNU/WzQ.rRPJ5kDgdOURHt1AIRkKevwzlcFyHqCRfOR6SMx.K",
-        "nickname": "Roby03",
-        "description": "Roberto, 22 anni - Giocatore competitivo di battle royale. È sempre in cerca di adrenalina e vorrebbe incontrare qualcuno con cui migliorare e divertirsi",
-        "id": 8,
-        "avatar": "/images/avatar/8.webp"
-      },
-      "id": 6
-    },
-    {
-      "userId": 4,
-      "user": {
-        "email": "luca@gmail.com",
-        "password": "$2a$10$/m.QhfJ96Elv9QfcPoKZ1.dP7l.wW2Vfkh/ukbQUXya2LSDsVG.r6",
-        "nickname": "LuchinoAK47",
-        "description": "Luca, 24 anni - Giocatore di MOBA e strategia in tempo reale. Adora le sfide e cerca una compagna con cui pianificare strategie e scalare le classifiche.\n",
-        "id": 5,
-        "avatar": "/images/avatar/5.webp"
-      },
-      "id": 7
-    },
-    {
-      "userId": 4,
-      "user": {
-        "email": "claudia@gmail.com",
-        "password": "$2a$10$kdS7i6umZCvF3oQf2MZIW.pISm8Fciwps2Rl0nVKWNzMTsWs8SrHq",
-        "nickname": "LadyLethal",
-        "description": "Claudia, 27 anni - Scrittrice e appassionata di giochi di narrazione interattiva. Ama chi sa immedesimarsi nei personaggi e nelle storie complesse.",
-        "id": 9,
-        "avatar": "/images/avatar/9.webp"
-      },
-      "id": 8
-    },
-    {
-      "userId": 4,
-      "user": {
-        "email": "sofia@gmail.com",
-        "password": "$2a$10$Eae/tkY1dN2Wd2G0RgsL9umRzUnIkvUkEwcOieAVC0cxx2mJxBoFK",
-        "nickname": "SpicySlayer",
-        "description": "Sofia, 24 anni - Fan degli sparatutto in terza persona e dei survival horror. È in cerca di una connessione con qualcuno che non abbia paura del brivido.",
-        "id": 11,
-        "avatar": "/images/avatar/11.webp"
-      },
-      "id": 9
-    },
-    {
-      "userId": 4,
-      "user": {
-        "email": "marta@gmail.com",
-        "password": "$2a$10$Lo32sQ33jww0kmO6EJgV7O0lNVivTl/xUgpWpV32KdaFN3ZfiidLq",
-        "nickname": "Marta-san",
-        "description": "Marta, 30 anni - Ex-campionessa di giochi da tavolo digitali, ora si diverte con giochi indie. Cerca qualcuno che apprezzi giochi di nicchia e originali.",
-        "id": 7,
-        "avatar": "/images/avatar/7.webp"
-      },
-      "id": 10
-    },
-    {
-      "userId": 4,
-      "user": {
-        "email": "francesco@gmail.com",
-        "password": "$2a$10$8xGGXxG1LcM4qXwPCJDWf.eNnvheYDizTBb9eXOlRwI7UNKOK5bEy",
-        "nickname": "HotJoystick",
-        "description": "Francesco, 26 anni - Collezionista di carte e amante dei giochi di strategia a turni. Sogna qualcuno che capisca il valore delle carte rare.",
-        "id": 10,
-        "avatar": "/images/avatar/10.webp"
-      },
-      "id": 11
-    },
-    {
-      "userId": 4,
-      "user": {
-        "email": "elena@gmail.com",
-        "password": "$2a$10$KDacEhUv3JZMilsbo7uEI.kAya./XJ6kuWc4i6GgEuDYWGJILWxBa",
-        "nickname": "FragPrince(ss)",
-        "description": "Elena, 26 anni - Creatrice di contenuti e amante dei giochi di avventura. Cerca qualcuno che possa ispirarla con nuove idee per il suo canale.",
-        "id": 13,
-        "avatar": "/images/avatar/13.webp"
-      },
-      "id": 12
-    },
-    {
-      "userId": 4,
-      "user": {
-        "email": "federica@gmail.com",
-        "password": "$2a$10$rSzFkVe9nj7scsQGRefc1Ol3yQunv2xi.6KH0Hc7FlUX8codTqM/a",
-        "nickname": "KissAndKill",
-        "description": "Federica, 28 anni - Appassionata di fantasy e giochi di carte digitali. Ama immergersi in universi ricchi di storia e cerca un compagno di avventure.",
-        "id": 15,
-        "avatar": "/images/avatar/15.webp"
-      },
-      "id": 13
-    },
-    {
-      "userId": 4,
-      "user": {
-        "email": "michele@gmail.com",
-        "password": "$2a$10$jMIozaLrVEfTpQDODxfj0eh5GomSLN/3czI5Hrj64IcpSRxuzt6AS",
-        "nickname": "CapitanMike",
-        "description": "Se il mare aperto è anche il tuo richiamo e vuoi unirti a una vita di battaglie epiche e passioni ardenti, sali a bordo e vediamo insieme dove soffia il vento della sorte. Pronta a condividere un sorso di rum e qualche risata salata? Alza la vela e inviami un messaggio, tesoro. Ma attenzione: con un pirata come me, l'avventura non è mai lontana… e nemmeno i brividi d'emozione! ☠️⚓",
-        "id": 17,
-        "avatar": "/images/avatar/17.webp"
-      },
-      "id": 14
-    },
-    {
-      "userId": 4,
-      "user": {
-        "email": "riccardo@gmail.com",
-        "password": "$2a$10$fErAZ/f/oa6ftz.5W1fD1uLfBYuAvdLsRou7DNZVuzgVSKZ.bPOx.",
-        "nickname": "RespawnRomeo",
-        "description": "Riccardo, 29 anni - Nostalgico del retrogaming, adora le vecchie console. Vorrebbe incontrare qualcuno che apprezzi le glorie passate.",
-        "id": 12,
-        "avatar": "/images/avatar/12.webp"
-      },
-      "id": 15
-    },
-    {
-      "userId": 4,
-      "user": {
-        "email": "gabriele@gmail.com",
-        "password": "$2a$10$48t6rhom5A9qTHHbSWSPAe3Wz51gdAwrbei6E9SJMb7jf6uQGi3ZO",
-        "nickname": "PixelKiller",
-        "description": "Gabriele, 22 anni - Giocatore di MMO e amante delle gilde. Cerca qualcuno con cui combattere fianco a fianco e vivere epiche avventure online.\n",
-        "id": 16,
-        "avatar": "/images/avatar/16.webp"
-      },
-      "id": 16
-    },
-    {
-      "userId": 4,
-      "user": {
-        "email": "chiara@gmail.com",
-        "password": "$2a$10$ZVgFxZW11DQM5WAtuZmCd.vXt9d/syY42bIL4n8wx/M3g3Qgov5rm",
-        "nickname": "VictoryVixen",
-        "description": "Chiara, 26 anni - Cosplayer e appassionata di action RPG. Vorrebbe conoscere qualcuno che apprezzi il lato creativo del gaming.",
-        "id": 19,
-        "avatar": "/images/avatar/19.webp"
-      },
-      "id": 17
-    },
-    {
-      "userId": 4,
-      "user": {
-        "email": "matteo@gmail.com",
-        "password": "$2a$10$DhAnhmZgZcBhWNXMSoef2u9befYg9vVN2fa51uWqp6Od5MxxbnWBO",
-        "nickname": "GigaHeartbreaker",
-        "description": "Matteo, 30 anni - Hacker amatoriale nei giochi di simulazione e realtà virtuale. Cerca una partner che sia affascinata dalle nuove tecnologie.",
-        "id": 14,
-        "avatar": "/images/avatar/14.webp"
-      },
-      "id": 18
-    },
-    {
-      "userId": 4,
-      "user": {
-        "email": "andrea@gmail.com",
-        "password": "$2a$10$LjO3MHMM4BvW318OsQIs3eneGSOFl87j.9BaunykFqw1CTnv0N06e",
-        "nickname": "PlayerPleasure",
-        "description": "Andrea, 27 anni - Competitivo nel mondo degli sport elettronici e appassionato di giochi di squadra. Spera di trovare una compagna per tornei di coppia.",
-        "id": 20,
-        "avatar": "/images/avatar/20.webp"
-      },
-      "id": 19
-    },
-    {
-      "userId": 4,
-      "user": {
-        "email": "simone@gmail.com",
-        "password": "$2a$10$6pcAnf6MIBBSyB7Pt5BEH.F/GzuTisrUyWzrhDiOaKwpGUhVPD9bC",
-        "nickname": "BitOfLove",
-        "description": "Simone, 24 anni - Esperto di giochi di simulazione e guida. Cerca qualcuno che ami rilassarsi esplorando mondi aperti.",
-        "id": 18,
-        "avatar": "/images/avatar/18.webp"
-      },
-      "id": 20
-    },
-    {
-      "userId": 8,
-      "user": {
-        "email": "alex@gmail.com",
-        "password": "$2a$10$t2KbqZdbfcORmCtIyfBbxeI5Wbv.lZrtMXfIzOxlK0UKTcbW2hdpG",
-        "nickname": "Malandrino",
-        "description": "Alex, 27 anni - Appassionato di giochi di ruolo online e streamer part-time. Adora esplorare mondi virtuali complessi e cerca qualcuno con cui condividere raid notturni.",
-        "id": 1,
-        "avatar": "/images/avatar/1.webp"
-      },
-      "id": 21
-    },
-    {
-      "userId": 8,
-      "user": {
-        "email": "Marco01@yahoo.com",
-        "password": "$2a$10$3wx8cSeuYTGwvEcTNozyI.hCDvEhU1cllhrwVPHA1.5R6Lo6KRFVm",
-        "nickname": "Marcolinho",
-        "description": "Marco, 31 anni - Competitivo, amante degli FPS e degli sport virtuali. Sta cercando una compagna che condivida il suo entusiasmo per i tornei e gli e-sports.",
-        "id": 3,
-        "avatar": "/images/avatar/3.webp"
-      },
-      "id": 22
-    },
-    {
-      "userId": 8,
-      "user": {
-        "email": "luca@gmail.com",
-        "password": "$2a$10$/m.QhfJ96Elv9QfcPoKZ1.dP7l.wW2Vfkh/ukbQUXya2LSDsVG.r6",
-        "nickname": "LuchinoAK47",
-        "description": "Luca, 24 anni - Giocatore di MOBA e strategia in tempo reale. Adora le sfide e cerca una compagna con cui pianificare strategie e scalare le classifiche.\n",
-        "id": 5,
-        "avatar": "/images/avatar/5.webp"
-      },
-      "id": 23
-    },
-    {
-      "userId": 11,
-      "user": {
-        "email": "alex@gmail.com",
-        "password": "$2a$10$t2KbqZdbfcORmCtIyfBbxeI5Wbv.lZrtMXfIzOxlK0UKTcbW2hdpG",
-        "nickname": "Malandrino",
-        "description": "Alex, 27 anni - Appassionato di giochi di ruolo online e streamer part-time. Adora esplorare mondi virtuali complessi e cerca qualcuno con cui condividere raid notturni.",
-        "id": 1,
-        "avatar": "/images/avatar/1.webp"
-      },
-      "id": 24
-    },
-    {
-      "userId": 11,
-      "user": {
-        "email": "Marco01@yahoo.com",
-        "password": "$2a$10$3wx8cSeuYTGwvEcTNozyI.hCDvEhU1cllhrwVPHA1.5R6Lo6KRFVm",
-        "nickname": "Marcolinho",
-        "description": "Marco, 31 anni - Competitivo, amante degli FPS e degli sport virtuali. Sta cercando una compagna che condivida il suo entusiasmo per i tornei e gli e-sports.",
-        "id": 3,
-        "avatar": "/images/avatar/3.webp"
-      },
-      "id": 25
-    },
-    {
-      "userId": 11,
-      "user": {
-        "email": "Giulia01@hotmail.com",
-        "password": "$2a$10$rMCCrxnVPEazrk.OWqUq1.LqnepUcWsC50sucDlZslTxVn119lfG.",
-        "nickname": "Fragolina",
-        "description": "Giulia, 23 anni - Fanatica di giochi di puzzle e avventure narrative. Ha una collezione di giochi retro e cerca qualcuno che apprezzi le serate tranquille davanti alla console.",
-        "id": 2,
-        "avatar": "/images/avatar/2.webp"
-      },
-      "id": 26
-    }
-  ],
+  "favorite": [],
   "favorite-games": [
     {
       "userId": 7,
