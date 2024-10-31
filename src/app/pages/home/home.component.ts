@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { iUser } from '../../models/i-user';
+import { iFavoriteUser } from '../../models/i-favorite-user';
+import { iFavoriteGame } from '../../models/i-favorite-game';
+import { BehaviorSubject } from 'rxjs';
 import { AuthService } from '../../services/auth.service';
 import { UserService } from '../../services/user.service';
-import { iFavoriteUser } from '../../models/i-favorite-user';
-import { environment } from '../../../environments/environment.development';
-import { BehaviorSubject } from 'rxjs';
 import { FavoriteService } from '../../services/favorite.service';
+import { environment } from '../../../environments/environment.development';
 
 @Component({
   selector: 'app-home',
@@ -20,7 +21,7 @@ export class HomeComponent implements OnInit {
   likeUsers: iUser[] = []; // Utenti aggiunti ai preferiti
   previousMatchedUsers$ = new BehaviorSubject<number[]>([]); // Lista di utenti già scartati osservabile
   noMoreUsers: boolean = false; // Flag per la fine della lista utenti
-  userFavUrl = environment.userFavUrl; // URL dei preferiti
+  favoriteGames: iFavoriteGame[] = []; // Giochi preferiti dell'utente corrente
 
   constructor(
     private authSvc: AuthService,
@@ -63,16 +64,33 @@ export class HomeComponent implements OnInit {
         );
         this.updateArrUsers(filteredUsers);
         this.updateFavoriteStatus();
+        this.loadFavoriteGamesForCurrentUser(); // Carica i giochi preferiti dell'utente iniziale
       });
     });
   }
 
-  // Passa all'utente successivo
+  // Carica i giochi preferiti dell'utente corrente
+  loadFavoriteGamesForCurrentUser() {
+    const currentUser = this.arrUsers$.value[this.currentIndex];
+    if (currentUser) {
+      this.favoriteSvc.getFavoriteGamesForUser(currentUser.id).subscribe(
+        (favoriteGames) => {
+          this.favoriteGames = favoriteGames;
+        },
+        (error) => {
+          console.error("Errore nel caricamento dei giochi preferiti dell'utente:", error);
+        }
+      );
+    }
+  }
+
+  // Passa all'utente successivo e aggiorna i giochi preferiti
   nextUser() {
     const users = this.arrUsers$.value;
     if (users.length > 0) {
       this.currentIndex = (this.currentIndex + 1) % users.length;
       this.updateFavoriteStatus();
+      this.loadFavoriteGamesForCurrentUser(); // Aggiorna i giochi preferiti dell'utente corrente
     } else {
       this.currentIndex = 0;
     }
@@ -103,7 +121,6 @@ export class HomeComponent implements OnInit {
         this.favoriteSvc.addFavorite(favoriteUser).subscribe(
           () => {
             this.isFavorite = true;
-            console.log('Utente aggiunto ai preferiti');
             this.likeUsers.push(addedUser);
             this.addMatchedUser(addedUser.id);
             this.removeMatchedUser();
@@ -135,9 +152,6 @@ export class HomeComponent implements OnInit {
   // Aggiunge l'utente corrente ai preferiti
   likeUser() {
     this.addToFavorites();
-    console.log('Utenti piaciuti:', this.likeUsers);
-
-
   }
 
   // Scarta l'utente corrente
@@ -176,7 +190,6 @@ export class HomeComponent implements OnInit {
   }
 
   mainContentVisible = false;
-
   isSloganVisible = true;
 
   showMainContent() {
