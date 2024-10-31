@@ -3,7 +3,7 @@
     <img
       routerLink="/home"
       class="logo"
-      src="/images/logo.webp"
+      src="/images/logo123.webp"
       alt="App Logo"
       class="logo g-logo"
       routerLink="/home"
@@ -36,7 +36,7 @@
       <mat-icon>videogame_asset</mat-icon> Games
     </button>
     <button mat-button routerLink="/favorites" *ngIf="isLoggedIn$ | async">
-      <mat-icon>videogame_asset</mat-icon> Matches
+      <mat-icon>favorite</mat-icon> Matches
     </button>
     <button mat-button *ngIf="isLoggedIn$ | async" (click)="profileAppear()">
       <mat-icon>account_circle</mat-icon> Profile
